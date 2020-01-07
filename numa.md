@@ -1,2 +1,0 @@
-# Non-uniform memory access
-

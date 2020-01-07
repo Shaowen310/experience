@@ -37,7 +37,9 @@ Set default to multi-user.target
 sudo systemctl set-default multi-user.target
 ```
 
-Create the file “.xsession” in the home folder.
+(`.xsession` file is optional)
+
+Create the file `.xsession` in the home folder.
 
 ```
 touch ~/.xsession

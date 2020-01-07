@@ -1,6 +1,6 @@
 # Linux hyper-v guest
 
-## Manual change
+## Screen resolution
 
 Follow these steps to change the screen resolution:
 
@@ -12,6 +12,18 @@ Follow these steps to change the screen resolution:
 1. Save changes and exit
 1. Run the following command: sudo update-grub
 1. Restart the VM
+
+## Migrate from VirtualBox
+
+1. Create a new VM without disk image.
+1. Convert `.vdi` image to `.vhd`image.
+1. If encounter failed booting because of video driver, try booting to recovery mode and setting to boot to cmd line by default. Run `startx` to boot to GUI afterwards may fix the problem.
+
+Convert `.vdi` to `.vhd`
+
+![](https://github.com/Shaowen310/experience/blob/master/img/vbox-media-manager.png)
+
+![](https://raw.githubusercontent.com/Shaowen310/experience/master/img/vbox-media-manager-copy-image.png)
 
 ## References
 

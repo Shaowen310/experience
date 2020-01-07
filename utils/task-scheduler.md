@@ -63,6 +63,18 @@ Search (```⊞ Win```+```S``` since Win 8.1) "schduler"
 
 ```⊞ Win```+```R```, open ```taskschd.msc```
 
+### Schedule Powershell scripts
+
+Actions: Start a program
+
+Settings:
+
+Program/scripts: powershell.exe
+
+Add arguments: -ExecutionPolicy Bypass <path_to_script.ps1>
+
 ## References
 
 1. [Schedule Tasks on Linux Using Crontab](http://kvz.io/blog/2007/07/29/schedule-tasks-on-linux-using-crontab/)
+
+1. [Run Powershell Scripts from Task Scheduler](https://community.spiceworks.com/how_to/17736-run-powershell-scripts-from-task-scheduler)
