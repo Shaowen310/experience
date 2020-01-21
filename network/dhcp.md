@@ -25,8 +25,8 @@ sudo vi /etc/dhcp/dhcpd.conf
 Global parameters
 
 ```
-option domain-name "tecmint.lan";
-option domain-name-servers ns1.tecmint.lan, ns2.tecmint.lan;
+option domain-name "example.org";
+option domain-name-servers ns1.example.org, ns2.example.org;
 default-lease-time 3600; 
 max-lease-time 7200;
 authoritative;
@@ -38,7 +38,7 @@ Define a subnet
 subnet 192.168.10.0 netmask 255.255.255.0 {
         option routers                  192.168.10.1;
         option subnet-mask              255.255.255.0;
-        option domain-search            "tecmint.lan";
+        option domain-search            "example.org";
         option domain-name-servers      192.168.10.1;
         range   192.168.10.10   192.168.10.100;
         range   192.168.10.110   192.168.10.200;
