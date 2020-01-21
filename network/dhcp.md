@@ -10,10 +10,12 @@ sudo apt install isc-dhcp-server
 
 ### Configuration
 
+**Note: Prior to configurations, need to make sure targeted interface card should be properly setup. May need to assign a static gateway IP to the interface card.**
+
 #### 1. Edit the file `/etc/default/isc-dhcp-server`
 
 ```
-INTERFACES="eth0"
+INTERFACESv4="eth0"
 ```
 
 #### 2. Define your DHCP server options
