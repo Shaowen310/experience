@@ -1,0 +1,85 @@
+# DHCP
+
+## Ubuntu
+
+### Install DHCP server
+
+```
+sudo apt install isc-dhcp-server
+```
+
+### Configuration
+
+#### 1. Edit the file `/etc/default/isc-dhcp-server`
+
+```
+INTERFACES="eth0"
+```
+
+#### 2. Define your DHCP server options
+
+```
+sudo vi /etc/dhcp/dhcpd.conf 
+```
+
+Global parameters
+
+```
+option domain-name "tecmint.lan";
+option domain-name-servers ns1.tecmint.lan, ns2.tecmint.lan;
+default-lease-time 3600; 
+max-lease-time 7200;
+authoritative;
+```
+
+Define a subnet
+
+```
+subnet 192.168.10.0 netmask 255.255.255.0 {
+        option routers                  192.168.10.1;
+        option subnet-mask              255.255.255.0;
+        option domain-search            "tecmint.lan";
+        option domain-name-servers      192.168.10.1;
+        range   192.168.10.10   192.168.10.100;
+        range   192.168.10.110   192.168.10.200;
+}
+```
+
+[Optional] Configure static IP
+
+```
+host centos-node {
+	 hardware ethernet 00:f0:m4:6y:89:0g;
+	 fixed-address 192.168.10.105;
+}
+
+host fedora-node {
+	 hardware ethernet 00:4g:8h:13:8h:3a;
+	 fixed-address 192.168.10.106;
+}
+```
+
+#### 3. Start DHCP serivce automatically
+
+```
+------------ SystemD ------------ 
+$ sudo systemctl start isc-dhcp-server.service
+$ sudo systemctl enable isc-dhcp-server.service
+
+
+------------ SysVinit ------------ 
+$ sudo service isc-dhcp-server.service start
+$ sudo service isc-dhcp-server.service enable
+```
+
+#### 4. Allow DHCP service on firewall
+
+```
+$ sudo ufw allow  67/udp
+$ sudo ufw reload
+$ sudo ufw show
+```
+
+## References
+
+1. [How to Install a DHCP Server in Ubuntu and Debian](https://www.tecmint.com/install-dhcp-server-in-ubuntu-debian/)
