@@ -122,6 +122,15 @@ df.groupby().agg({'gender': pd.Series.nunique, 'tip': np.max, 'total_bill': np.s
 df.sort_values(['total_bill', 'tip'], ascending=[False, True])
 ```
 
+### drop
+
+Drop columns
+
+```python
+df.drop(['role'], axis=1)
+df.drop(df.columns[[0]], axis=1)
+```
+
 ## References
 
 1. [【Python 实战】Pandas：让你像写 SQL 一样做数据分析（一）](https://www.cnblogs.com/en-heng/p/5630849.html)
