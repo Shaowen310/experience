@@ -49,34 +49,6 @@ sudo usermod -aG docker $USER
 docker run hello-world
 ```
 
-## Windows 10
-
-### WSL1 1809
-
-#### Issue: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
-
-1. Expose daemon on tcp://localhost:2375 without TLS
-
-![https://medium.com/@sebagomez/installing-the-docker-client-on-ubuntus-windows-subsystem-for-linux-612b392a44c4](https://miro.medium.com/max/832/1*6XwT-oT7cbw63UFHLjQPzA.png)
-
-Picture from https://medium.com/@sebagomez/installing-the-docker-client-on-ubuntus-windows-subsystem-for-linux-612b392a44c4
-
-2. Add DOCKER_HOST environment variable to `.profile`
-
-```
-export DOCKER_HOST=localhost:2375
-```
-
-Drawback: not secure
-
-Solutions:
-
-1. [WSL Interoperability with Docker](https://devblogs.microsoft.com/commandline/cross-post-wsl-interoperability-with-docker/)
-
-1. Wait for WSL2
-
 ## References
 
 1. [Offical Document: Get Docker Engine - Community for Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
-
-1. [Installing the Docker client on Windows Subsystem for Linux (Ubuntu)](https://medium.com/@sebagomez/installing-the-docker-client-on-ubuntus-windows-subsystem-for-linux-612b392a44c4)
