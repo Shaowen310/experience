@@ -4,7 +4,7 @@
 
 ### Docker Community Edition
 
-[Script](https://github.com/Shaowen310/scripts/blob/master/ubuntu/18.04/install-docker-ce.sh)
+[Script](https://github.com/Shaowen310/scripts/blob/master/ubuntu/bash/install-docker-ce.sh)
 
 1. Remove any older installations of Docker that may be on the system
 
