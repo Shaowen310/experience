@@ -23,6 +23,7 @@ sudo nano /etc/systemd/system/docker.service.d/options.conf
 
 # Now make it look like this and save the file when you're done:
 [Service]
+ExecStart=
 ExecStart=/usr/bin/dockerd -H unix:// -H tcp://0.0.0.0:2375
 
 # Reload the systemd daemon.
