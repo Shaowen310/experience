@@ -86,12 +86,6 @@ Change default shell to zsh
 chsh -s /bin/zsh
 ```
 
-### WSL
-
-See references.
-
-Color theme `base16-default-dark.minttyrc`
-
 ## Get rid of Ubuntu colorized shell
 
 Comment the following lines
