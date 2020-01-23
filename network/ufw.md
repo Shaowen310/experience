@@ -36,4 +36,5 @@ This would allow other servers on your private network to connect to your MySQL 
 
 ## References
 
+1. [man utf](http://manpages.ubuntu.com/manpages/bionic/man8/ufw.8.html)
 1. [How To Set Up a Firewall with UFW on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-18-04)
