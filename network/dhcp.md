@@ -71,7 +71,6 @@ $ sudo systemctl enable isc-dhcp-server.service
 
 ------------ SysVinit ------------ 
 $ sudo service isc-dhcp-server start
-$ sudo service isc-dhcp-server enable
 ```
 
 #### 4. Allow DHCP service on firewall
