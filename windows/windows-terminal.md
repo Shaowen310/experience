@@ -53,27 +53,6 @@
     // Add custom color schemes to this array
     "schemes": [
         {
-            "name": "flat-ui-v1",
-            "background": "#000000",
-            "black": "#000000",
-            "blue": "#2980b9",
-            "brightBlack": "#7f8c8d",
-            "brightBlue": "#3498db",
-            "brightCyan": "#1abc9c",
-            "brightGreen": "#2ecc71",
-            "brightPurple": "#9b59b6",
-            "brightRed": "#e74c3c",
-            "brightWhite": "#ecf0f1",
-            "brightYellow": "#f1c40f",
-            "cyan": "#16a085",
-            "foreground": "#ecf0f1",
-            "green": "#27ae60",
-            "purple": "#8e44ad",
-            "red": "#c0392b",
-            "white": "#ecf0f1",
-            "yellow": "#f39c12"
-        },
-        {
             "name": "Dracula",
             "background": "#282A36",
             "black": "#21222C",
@@ -101,7 +80,9 @@
 }
 ```
 
-### Pre-defined color schemes
+### colorScheme
+
+#### Pre-defined color schemes
 
 Campbell, One Half Dark, One Half Light, Solarized Dark, Solarized Light
 
