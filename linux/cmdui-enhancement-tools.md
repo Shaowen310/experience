@@ -88,7 +88,7 @@ chsh -s /bin/zsh
 
 ## Colorized shell
 
-### Config dircolors
+### Config dircolors to remove dir background in `ls -color` output
 
 `eval` needs to be defined after the plugins, but before source `$ZSH/oh-my-zsh.sh`
 
