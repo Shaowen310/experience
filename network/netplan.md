@@ -6,7 +6,7 @@
 
 ## Sample configuration
 
-```
+```text
 network:
   version: 2
   ethernets:
@@ -21,3 +21,4 @@ network:
 ```
 
 Note that gateway4 assigns the default gateway. The static gateway has higher priority than DHCP assigned gateway.
+

@@ -4,7 +4,7 @@
 
 May encounter the following error message
 
-```
+```text
 ERROR:  database "testdb" is being accessed by other users
 DETAIL:  There are 3 other sessions using the database.
 ```
@@ -24,5 +24,5 @@ WHERE datname='testdb' AND pid<>pg_backend_pid();
 ## References
 
 1. [Docker: postgres](https://hub.docker.com/_/postgres)
+2. [docker postgres 导出导入数据](https://www.cnblogs.com/zhzhlong/p/11466464.html)
 
-1. [docker postgres 导出导入数据](https://www.cnblogs.com/zhzhlong/p/11466464.html)

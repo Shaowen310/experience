@@ -124,13 +124,9 @@ public class DatabaseCleanerRule extends ExternalResource {
 ## References
 
 1. [Spring Boot + Spring data JPA + PostgreSQL](https://www.mkyong.com/spring-boot/spring-boot-spring-data-jpa-postgresql/)
+2. [Spring Boot Hibernate Syntax Error in SQL Statement](https://stackoverflow.com/questions/27987068/spring-boot-hibernate-syntax-error-in-sql-statement)
+3. [Should my tests be @Transactional?](https://www.marcobehler.com/2014/06/25/should-my-tests-be-transactional)
+4. [How Does Spring @Transactional Really Work?](https://dzone.com/articles/how-does-spring-transactional)
+5. [Spring repository not always throwing DataIntegrityViolationException](https://stackoverflow.com/questions/43707774/spring-repository-not-always-throwing-dataintegrityviolationexception)
+6. [How to clear database in Spring Boot tests?](https://brightinventions.pl/blog/clear-database-in-spring-boot-tests/)
 
-1. [Spring Boot Hibernate Syntax Error in SQL Statement](https://stackoverflow.com/questions/27987068/spring-boot-hibernate-syntax-error-in-sql-statement)
-
-1. [Should my tests be @Transactional?](https://www.marcobehler.com/2014/06/25/should-my-tests-be-transactional)
-
-1. [How Does Spring @Transactional Really Work?](https://dzone.com/articles/how-does-spring-transactional)
-
-1. [Spring repository not always throwing DataIntegrityViolationException](https://stackoverflow.com/questions/43707774/spring-repository-not-always-throwing-dataintegrityviolationexception)
-
-1. [How to clear database in Spring Boot tests?](https://brightinventions.pl/blog/clear-database-in-spring-boot-tests/)

@@ -2,7 +2,7 @@
 
 ## Settings
 
-```json
+```javascript
 // To view the default settings, hold "alt" while clicking on the "Settings" button.
 // For documentation on these settings, see: https://aka.ms/terminal-documentation
 {
@@ -89,3 +89,4 @@ Campbell, One Half Dark, One Half Light, Solarized Dark, Solarized Light
 ## References
 
 1. [Introducing the Windows Console Colortool](https://devblogs.microsoft.com/commandline/introducing-the-windows-console-colortool/)
+

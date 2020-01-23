@@ -26,3 +26,4 @@ hist = Counter(seq)
 ## References
 
 1. [5 种方法教你用 Python 玩转 histogram 直方图](https://blog.csdn.net/weixin_33858485/article/details/87989778)
+

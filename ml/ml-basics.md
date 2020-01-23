@@ -2,9 +2,9 @@
 
 ## Underfitting/Overfitting
 
-Underfitting -> High bias
+Underfitting -&gt; High bias
 
-Overfitting -> High variance
+Overfitting -&gt; High variance
 
 ### Solution for overfitting
 
@@ -25,3 +25,4 @@ Test data should not used for training. It is for evaluation purpose only.
 ## References
 
 1. [About Train, Validation and Test Sets in Machine Learning](https://towardsdatascience.com/train-validation-and-test-sets-72cb40cba9e7)
+

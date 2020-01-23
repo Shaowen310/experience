@@ -6,7 +6,7 @@
 
 Linux
 
-```
+```text
 sudo sysctl net.ipv4.ip_forward=1
 ```
 
@@ -20,10 +20,11 @@ This feature requires NIC and its driver's support. For network adapters provide
 
 Linux
 
-```
+```text
 sudo ip link set dev {interface} promisc on
 ```
 
 ## References
 
 1. [Packet forwarding](https://en.wikipedia.org/wiki/Packet_forwarding)
+

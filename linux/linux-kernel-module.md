@@ -1,8 +1,8 @@
-# Linux Kernel Module (LKM)
+# Linux Kernel Module \(LKM\)
 
 ## Makefile
 
-```Makefile
+```text
 obj-m := hello_1.o
 obj-m += hello_2_3.o
   hello_2_3-objs := hello_2.o hello_3.o
@@ -32,5 +32,5 @@ clean:
 ## References
 
 1. [Linux kbuild modules](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/kbuild/modules.txt)
+2. [Linux Kernel Modules - Load, Unload, Configure](http://edoceo.com/howto/kernel-modules)
 
-1. [Linux Kernel Modules - Load, Unload, Configure](http://edoceo.com/howto/kernel-modules)

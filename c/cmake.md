@@ -4,7 +4,7 @@
 
 CMakeLists.txt
 
-```cmake
+```text
 cmake_minimum_required (VERSION 3.6)
 
 project (proj_name VERSION 0.1 LANGUAGES C)
@@ -42,12 +42,12 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
 
 eg.
 
-```cmake
+```text
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin/lib)
 add_subdirectory(${CMAKE_SOURCE_DIR}/lib/log.c)
 ```
 
-Then the library's binary file will be stored in ${CMAKE_BINARY_DIR}/bin/lib
+Then the library's binary file will be stored in ${CMAKE\_BINARY\_DIR}/bin/lib
 
 ### PRIVATE INTERFACE PUBLIC when including a header
 
@@ -58,3 +58,4 @@ INTERFACE means it will be used by external projects but not by its implementati
 PUBLIC == PRIVATE + INTERFACE
 
 ### When linking libraries, just use built library names no need include headers again
+

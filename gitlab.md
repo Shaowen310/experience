@@ -10,9 +10,9 @@ Download docker-compose
 
 [Instructions](https://docs.docker.com/compose/install/)
 
-Create docker-compose.yml and replace {host_ip} to the actual IP address of the server.
+Create docker-compose.yml and replace {host\_ip} to the actual IP address of the server.
 
-```yml
+```text
 version: "3.6" 
 services:
   web:
@@ -42,7 +42,7 @@ networks:
 
 Start GitLab
 
-```
+```text
 docker-compose up --build --abort-on-container-exit
 ```
 
@@ -51,3 +51,4 @@ Given username is "root".
 ## References
 
 1. [How to use Docker to build a Self-Host GitLab and GitLab Runner](https://medium.com/@rukeith/how-to-use-docker-to-build-a-self-host-gitlab-and-gitlab-runner-781981dc4d03)
+

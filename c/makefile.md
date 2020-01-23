@@ -6,13 +6,13 @@
 
 --directory=dir
 
-Change to directory dir before reading the makefiles. If multiple ‘-C’ options are specified, each is interpreted relative to the previous one: ‘-C / -C etc’ is equivalent to ‘-C /etc’. This is typically used with recursive invocations of make (see Recursive Use of make).
+Change to directory dir before reading the makefiles. If multiple ‘-C’ options are specified, each is interpreted relative to the previous one: ‘-C / -C etc’ is equivalent to ‘-C /etc’. This is typically used with recursive invocations of make \(see Recursive Use of make\).
 
 ## Variables
 
 ### Examples
 
-```Makefile
+```text
 CC=gcc
 CFLAGS=-Wall -I.
 
@@ -28,7 +28,7 @@ $^ The names of all the prerequisites, with spaces between them.
 
 ### Examples
 
-```Makefile
+```text
 vpn: vpn.c
   gcc -o $@ $^ -g -Wall
 ```
@@ -44,3 +44,4 @@ automake or cmake
 ## References
 
 1. [Automatic-Variables](https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html)
+

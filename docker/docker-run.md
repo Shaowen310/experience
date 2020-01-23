@@ -6,7 +6,7 @@ Run a command in a new container
 
 ## Usage
 
-```
+```text
 docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
 ```
 
@@ -14,7 +14,7 @@ docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
 
 ### Mount a volume
 
-```
+```text
 docker run -v /doesnt/exist:/foo -w /foo -i -t ubuntu bash
 ```
 
@@ -25,3 +25,4 @@ When the host directory of a bind-mounted volume doesn’t exist, Docker will au
 ## References
 
 1. [Official document: docker run](https://docs.docker.com/engine/reference/commandline/run/)
+

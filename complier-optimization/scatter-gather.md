@@ -7,3 +7,4 @@ It reduces the number of cache misses when working with non-continuous data by c
 ## References
 
 1. [How Does Scatter/Gather Work?](https://www.eejournal.com/article/20170209-scatter-gather/)
+

@@ -2,7 +2,7 @@
 
 ## Overview
 
-```
+```text
          +----------------------------------+
          |    Application Layer (INET)      |
          +------+--------------------^------+
@@ -37,51 +37,48 @@
 
 Socket
 
-proto_ops
+proto\_ops
 
-tcp_sendmsg or udp_sendmsg
+tcp\_sendmsg or udp\_sendmsg
 
-queue_xmit calls ip_queue_xmit
+queue\_xmit calls ip\_queue\_xmit
 
-ip_output.c
+ip\_output.c
 
-Forwarding Information Base (FIB)
+Forwarding Information Base \(FIB\)
 
-The routing information is checked. If packet is fragmented then call ip_fragment function.
+The routing information is checked. If packet is fragmented then call ip\_fragment function.
 
-ip_route_output_flow
+ip\_route\_output\_flow
 
 ## Receiving a packet from the medium
 
 ### Device to driver
 
 1. Driver handles the interrupt issued by device.
+2. Driver stores the frame to RAM, allocates sk\_buff\(skb\), and copy the frame to skb
 
-1. Driver stores the frame to RAM, allocates sk_buff(skb), and copy the frame to skb
-
-#### sk_buff
+#### sk\_buff
 
 It is a doubly linked list.
 
 ### Driver to protocol layer
 
 1. Driver puts skb into CPU queue, and issues a "soft" interrupt
-
-1. CPU removes skb from CPU queue, and passes it to network layer. IPv4 `ipv4/ip_iunput.c:ip_rcv()`
-
-1. `ip_input.c:ip_rcv()` calls `ip_rcv_finish()`, and `ip_rcv_finish()` calls `route.c:ip_route_input()`
+2. CPU removes skb from CPU queue, and passes it to network layer. IPv4 `ipv4/ip_iunput.c:ip_rcv()`
+3. `ip_input.c:ip_rcv()` calls `ip_rcv_finish()`, and `ip_rcv_finish()` calls `route.c:ip_route_input()`
 
 ### Routing
 
-#### ipv4/route.c:ip_route_input()
+#### ipv4/route.c:ip\_route\_input\(\)
 
 If destination == me
 
-then calls ip_input.c:ip_local_deliver()
+then calls ip\_input.c:ip\_local\_deliver\(\)
 
-else calls ip_route_input_slow()
+else calls ip\_route\_input\_slow\(\)
 
-#### ipv4/route.c:ip_route_input_slow()
+#### ipv4/route.c:ip\_route\_input\_slow\(\)
 
 Can forward?
 
@@ -90,7 +87,7 @@ Checks if
 * Forwarding enabled?
 * Known route?
 
-No: sends ICMP (Destination Unreachable)
+No: sends ICMP \(Destination Unreachable\)
 
 ### Forwarding a packet
 
@@ -98,7 +95,7 @@ No: sends ICMP (Destination Unreachable)
 
 Packet forwarding is configured for each receiving device
 
-```
+```text
 /proc/sys/net/ipv4/conf/<device>/forwarding
 /proc/sys/net/ipv4/conf/default/forwarding
 /proc/sys/net/ipv4/ip_forwarding
@@ -108,17 +105,17 @@ Packet forwarding is configured for each receiving device
 
 `ipv4/ip_forward.c:ip_forward()`
 
-##### TTL check
+**TTL check**
 
-if IP TTL > 1
+if IP TTL &gt; 1
 
 then decreases TTL
 
-else sends ICMP (Time Exceeded)
+else sends ICMP \(Time Exceeded\)
 
-##### Enqueue priority FIFO (multiqueue)
+**Enqueue priority FIFO \(multiqueue\)**
 
-Priority is based on IP Type of Service (ToS)
+Priority is based on IP Type of Service \(ToS\)
 
 * 0 "interactive"
 * 1 "best effort" default
@@ -135,5 +132,5 @@ Removes the oldest packet from the highest priority band and passes it to the de
 ## References
 
 1. [The Journey of a Packet Through the Linux Network Stack](https://www.cs.dartmouth.edu/~sergey/me/netreads/path-of-packet/Lab9_modified.pdf)
+2. [PATH OF A PACKET IN THE LINUX KERNEL STACK](https://www.cs.dartmouth.edu/~sergey/netreads/path-of-packet/Network_stack.pdf)
 
-1. [PATH OF A PACKET IN THE LINUX KERNEL STACK](https://www.cs.dartmouth.edu/~sergey/netreads/path-of-packet/Network_stack.pdf)

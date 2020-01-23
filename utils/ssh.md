@@ -2,7 +2,7 @@
 
 ## SOCKS proxy
 
-```
+```text
 ssh -D 1337 -q -C -N user@host
 ```
 
@@ -15,10 +15,11 @@ ssh -D 1337 -q -C -N user@host
 
 ### WSL
 
-```
+```text
 sudo service ssh --full-restart
 ```
 
 ## References
 
 1. [socks proxy linux ssh bypass content filters](https://ma.ttias.be/socks-proxy-linux-ssh-bypass-content-filters/)
+

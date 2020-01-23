@@ -79,6 +79,7 @@
   * [Histogram](python/histogram.md)
   * [Python dict](python/dict.md)
 * [utils](utils/README.md)
+  * [Pipe to/from the clipboard](utils/pipe-to-from-clipboard.md)
   * [Task Schedulers](utils/task-scheduler.md)
   * [SSH](utils/ssh.md)
   * [FTP Server](utils/ftpserver.md)
@@ -88,5 +89,4 @@
 * [Central Authentication Service](central-auth-service.md)
 * [Regex](regex.md)
 * [Kubernetes](kubernetes.md)
-* [Pipe to/from the clipboard](pipe-to-from-clipboard.md)
 

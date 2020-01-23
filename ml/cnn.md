@@ -12,15 +12,15 @@ Input. VGG takes in a 224x224 pixel RGB image. For the ImageNet competition, the
 
 #### Convolution layers
 
-The convolutional layers in VGG use a very small receptive field (3x3, the smallest possible size that still captures left/right and up/down). There are also 1x1 convolution filters which act as a linear transformation of the input, which is followed by a ReLU unit. The padding is 1 and the convolution stride is fixed to 1 pixel so that the spatial resolution is preserved after convolution.
+The convolutional layers in VGG use a very small receptive field \(3x3, the smallest possible size that still captures left/right and up/down\). There are also 1x1 convolution filters which act as a linear transformation of the input, which is followed by a ReLU unit. The padding is 1 and the convolution stride is fixed to 1 pixel so that the spatial resolution is preserved after convolution.
 
 The number of filters increase as we go deeper into the network. The spatial size of the feature maps decrease since we do pooling, but the depth of the volumes increase as we use more filters.
 
-All of VGG’s hidden layers use ReLU (a huge innovation from AlexNet that cut training time). VGG does not generally use Local Response Normalization (LRN), as LRN increases memory consumption and training time with no particular increase in accuracy.
+All of VGG’s hidden layers use ReLU \(a huge innovation from AlexNet that cut training time\). VGG does not generally use Local Response Normalization \(LRN\), as LRN increases memory consumption and training time with no particular increase in accuracy.
 
-##### Stacking two convolution layers:
+**Stacking two convolution layers:**
 
-It only uses 3x3 convolutions (no padding) throughout the network. Note that two back to back 3x3 convolutions have the effective receptive field of a single 5x5 convolution. And three stacked 3x3 convolutions have the receptive field of a single 7x7 one.
+It only uses 3x3 convolutions \(no padding\) throughout the network. Note that two back to back 3x3 convolutions have the effective receptive field of a single 5x5 convolution. And three stacked 3x3 convolutions have the receptive field of a single 7x7 one.
 
 Another advantage of stacking two convolutions instead of one is that we use two relu operations, and more non-linearity gives more power to the model.
 
@@ -35,7 +35,6 @@ VGG has three fully-connected layers: the first two have 4096 channels each and 
 ## References
 
 1. [Applied Deep Learning - Part 4: Convolutional Neural Networks](https://towardsdatascience.com/applied-deep-learning-part-4-convolutional-neural-networks-584bc134c1e2)
+2. [VGG Neural Networks: The Next Step After AlexNet](https://towardsdatascience.com/vgg-neural-networks-the-next-step-after-alexnet-3f91fa9ffe2c)
+3. [Reading the VGG Network Paper and Implementing It From Scratch with Keras](https://hackernoon.com/learning-keras-by-implementing-vgg16-from-scratch-d036733f2d5)
 
-1. [VGG Neural Networks: The Next Step After AlexNet](https://towardsdatascience.com/vgg-neural-networks-the-next-step-after-alexnet-3f91fa9ffe2c)
-
-1. [Reading the VGG Network Paper and Implementing It From Scratch with Keras](https://hackernoon.com/learning-keras-by-implementing-vgg16-from-scratch-d036733f2d5)
