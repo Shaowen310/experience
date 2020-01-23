@@ -86,7 +86,19 @@ Change default shell to zsh
 chsh -s /bin/zsh
 ```
 
-## Get rid of Ubuntu colorized shell
+## Colorized shell
+
+### Config dircolors
+
+`eval` needs to be defined after the plugins, but before source `$ZSH/oh-my-zsh.sh`
+
+```
+eval "$(dircolors -p | \
+    sed 's/ 4[0-9];/ 01;/; s/;4[0-9];/;01;/g; s/;4[0-9] /;01 /' | \
+    dircolors /dev/stdin)"
+```
+
+### Get rid of colorized shell
 
 Comment the following lines
 
@@ -112,15 +124,10 @@ fi
 ## References
 
 1. [How to Use tmux the Terminal Multiplexer](https://www.linode.com/docs/networking/ssh/persistent-terminal-sessions-with-tmux/)
-
 1. [How do I scroll in tmux?](https://superuser.com/questions/209437/how-do-i-scroll-in-tmux/209608)
-
 1. [StackExchange: Tmux mouse-mode on does not allow to select text with mouse](https://unix.stackexchange.com/questions/332419/tmux-mouse-mode-on-does-not-allow-to-select-text-with-mouse)
-
 1. [Making tmux Pretty and Usable - A Guide to Customizing your tmux.conf](https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/)
-
 1. [Install Z-shell (Oh My Zsh) on Ubuntu 18.04 LTS](https://dev.to/mskian/install-z-shell-oh-my-zsh-on-ubuntu-1804-lts-4cm4)
-
 1. [How to setup a nice looking terminal with WSL in Windows 10 Creators Update](https://medium.com/@Andreas_cmj/how-to-setup-a-nice-looking-terminal-with-wsl-in-windows-10-creators-update-2b468ed7c326)
-
 1. [Github: wsl-terminal](https://github.com/goreliu/wsl-terminal)
+1. [Stack Overflow: How to remove dir background in `ls -color` output](https://stackoverflow.com/questions/40574819/how-to-remove-dir-background-in-ls-color-output)
