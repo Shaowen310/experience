@@ -21,7 +21,7 @@ Follow these steps to change the screen resolution:
 
 Convert `.vdi` to `.vhd`
 
-![](https://github.com/Shaowen310/experience/blob/master/img/vbox-media-manager.png)
+![](../.gitbook/assets/vbox-media-manager.png)
 
 ![](https://raw.githubusercontent.com/Shaowen310/experience/master/img/vbox-media-manager-copy-image.png)
 
