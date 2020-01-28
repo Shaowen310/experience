@@ -1,6 +1,6 @@
 # Change default python version
 
-## Use update-alternatives
+## Use `update-alternatives`
 
 Install configuration
 
