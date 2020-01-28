@@ -2,6 +2,8 @@
 
 ## Installation
 
+Docker-compose GitHub releases: [https://github.com/docker/compose/releases](https://github.com/docker/compose/releases)
+
 See references
 
 ## Examples
