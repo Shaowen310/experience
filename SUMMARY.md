@@ -41,6 +41,7 @@
   * [Spring properties file](spring-framework/spring-properties.md)
   * [Spring data JPA](spring-framework/spring-data-jpa.md)
 * [linux](linux/README.md)
+  * [Change default python version](linux/change-default-python-version.md)
   * [Linux hyper-v guest](linux/linux-hyper-v.md)
   * [CMDUI enhancement tools](linux/cmdui-enhancement-tools.md)
   * [Alternate GUI for Ubuntu Server](linux/ubuntu-alternate-gui.md)
