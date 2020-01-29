@@ -80,6 +80,7 @@
 * [python](python/README.md)
   * [Histogram](python/histogram.md)
   * [Regex](python/regex.md)
+  * [String](python/string.md)
   * [File I/O](python/file-i-o.md)
   * [Python dict](python/dict.md)
 * [utils](utils/README.md)
