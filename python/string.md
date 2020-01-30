@@ -1,4 +1,4 @@
-# String
+# Python string
 
 ## String comparison
 

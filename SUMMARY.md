@@ -1,6 +1,12 @@
 # Table of contents
 
 * [Experience](README.md)
+* [Python](python/README.md)
+  * [Python histogram](python/histogram.md)
+  * [Python file I/O](python/file-i-o.md)
+  * [Python regex](python/regex-1.md)
+  * [Python string](python/string.md)
+  * [Python dict](python/dict.md)
 * [c](c/README.md)
   * [cmake](c/cmake.md)
   * [Makefile](c/makefile.md)
@@ -88,12 +94,4 @@
 * [Central Authentication Service](central-auth-service.md)
 * [Regex](regex.md)
 * [Kubernetes](kubernetes.md)
-
-## python
-
-* [Python dict](dict.md)
-* [String](string.md)
-* [Regex](regex-1.md)
-* [File I/O](file-i-o.md)
-* [Histogram](histogram.md)
 
