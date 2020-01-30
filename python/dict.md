@@ -1,5 +1,18 @@
 # Python dict
 
+## Traversing
+
+```python
+D1 = {1:'a', 2:'b', 3:'b'} 
+for k in D1.keys():
+   print(k, D1[k])
+for k, v in D1.items():
+   print(k, v)
+for v in D1.values():
+   print(v)
+   # ['a', 'b']
+```
+
 ## Sorting
 
 ### Sort by keys
