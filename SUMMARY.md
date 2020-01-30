@@ -5,7 +5,7 @@
   * [Python functional programming](python/python-functional-programming.md)
   * [Python histogram](python/histogram.md)
   * [Python file I/O](python/file-i-o.md)
-  * [Python regex](python/regex.md)
+  * [Python regex](python/python-regex.md)
   * [Python string](python/string.md)
   * [Python dict](python/dict.md)
 * [c](c/README.md)
