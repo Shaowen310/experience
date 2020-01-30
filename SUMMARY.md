@@ -77,12 +77,6 @@
   * [Windows Terminal](windows/windows-terminal.md)
 * [Git](git.md)
 * [Latex](latex.md)
-* [python](python/README.md)
-  * [Histogram](python/histogram.md)
-  * [Regex](python/regex.md)
-  * [String](python/string.md)
-  * [File I/O](python/file-i-o.md)
-  * [Python dict](python/dict.md)
 * [utils](utils/README.md)
   * [Pipe to/from the clipboard](utils/pipe-to-from-clipboard.md)
   * [Task Schedulers](utils/task-scheduler.md)
@@ -94,4 +88,12 @@
 * [Central Authentication Service](central-auth-service.md)
 * [Regex](regex.md)
 * [Kubernetes](kubernetes.md)
+
+## python
+
+* [Python dict](dict.md)
+* [String](string.md)
+* [Regex](regex-1.md)
+* [File I/O](file-i-o.md)
+* [Histogram](histogram.md)
 
