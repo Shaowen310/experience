@@ -6,7 +6,7 @@ Python string comparison is performed using the characters in both strings. The 
 
 Examples:
 
-```text
+```python
 fruit1 = 'Apple'
 
 print(fruit1 == 'Apple')
