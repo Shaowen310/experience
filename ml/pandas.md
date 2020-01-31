@@ -109,7 +109,7 @@ Note that `query` is more efficient because it does not need to generate boolean
 
 ### group by
 
-`df.groupby('key').size()` or `df['key'].count_values()`
+`df.groupby('key').size()` or `df['key'].value_counts()`
 
 Multiple aggregation functions
 
