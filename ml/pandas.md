@@ -119,18 +119,31 @@ df.groupby().agg({'gender': pd.Series.nunique, 'tip': np.max, 'total_bill': np.s
 
 ### order
 
+`df.sort_values`
+
 ```python
 df.sort_values(['total_bill', 'tip'], ascending=[False, True])
 ```
 
 ### drop
 
-Drop columns
+`df.drop`
 
 ```python
+# Drop columns
 df.drop(['role'], axis=1)
 df.drop(df.columns[[0]], axis=1)
 ```
+
+## Functional programming
+
+### df.apply
+
+Applies a function to each row or each column.
+
+### df.applymap
+
+Applies a function to a dataframe  elementwise.
 
 ## References
 

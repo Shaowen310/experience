@@ -23,7 +23,7 @@ Convert `.vdi` to `.vhd`
 
 ![](../.gitbook/assets/vbox-media-manager.png)
 
-![](https://raw.githubusercontent.com/Shaowen310/experience/master/img/vbox-media-manager-copy-image.png)
+![](../.gitbook/assets/vbox-media-manager-copy-image.png)
 
 ## References
 
