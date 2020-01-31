@@ -153,6 +153,14 @@ Applies a function to a dataframe elementwise.
 df.applymap(lambda x: len(str(x)))
 ```
 
+### series.apply
+
+Applies a function to a series elementwise.
+
+```python
+series.apply(len)
+```
+
 ## References
 
 1. [【Python 实战】Pandas：让你像写 SQL 一样做数据分析（一）](https://www.cnblogs.com/en-heng/p/5630849.html)
