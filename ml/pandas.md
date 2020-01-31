@@ -141,9 +141,17 @@ df.drop(df.columns[[0]], axis=1)
 
 Applies a function to each row or each column.
 
+```python
+df.apply(np.sum, axis=1)
+```
+
 ### df.applymap
 
-Applies a function to a dataframe  elementwise.
+Applies a function to a dataframe elementwise.
+
+```python
+df.applymap(lambda x: len(str(x)))
+```
 
 ## References
 
