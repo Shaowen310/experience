@@ -4,6 +4,7 @@
 
 ```python
 pd.read_csv()
+pd.read_json()
 ```
 
 ### dtype
