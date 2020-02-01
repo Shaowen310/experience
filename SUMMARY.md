@@ -7,6 +7,7 @@
   * [Python file I/O](python/file-i-o.md)
   * [Python regex](python/python-regex.md)
   * [Python string](python/string.md)
+  * [Python set](python/python-set.md)
   * [Python dict](python/dict.md)
 * [c](c/README.md)
   * [cmake](c/cmake.md)

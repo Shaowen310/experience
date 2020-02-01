@@ -133,6 +133,8 @@ df.sort_values(['total_bill', 'tip'], ascending=[False, True])
 # Drop columns
 df.drop(['role'], axis=1)
 df.drop(df.columns[[0]], axis=1)
+# Drop elements
+df.drop(df.index[df['role'] == 'user'])
 ```
 
 ## Functional programming

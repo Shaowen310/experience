@@ -27,6 +27,22 @@ sorted(d.keys(), reverse=False)
 sorted(d.items(), key=lambda item:item[1])
 ```
 
+## Construction
+
+### Index map
+
+Index to object map. Prefer to use a list if index starts from 0.
+
+```python
+dict(enumerate(lst, start=0))
+```
+
+Object to index map, or reverse map
+
+```python
+inv_map = {v: k for k, v in enumerate(lst, start=0)}
+```
+
 ## References
 
 1. [python 的 sorted 函数对字典按 key 排序和按 value 排序](https://blog.csdn.net/tangtanghao511/article/details/47810729)
