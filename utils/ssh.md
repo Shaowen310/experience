@@ -1,6 +1,6 @@
 # SSH
 
-## Create SSH Keys
+## Create SSH keys
 
 ```text
 ssh-keygen -t ed25519
@@ -21,7 +21,11 @@ ssh -D 1337 -q -C -N user@host
 
 ### WSL
 
-```text
+```bash
+# To remove old config file and to enable GSSAPIAuthentication
+sudo apt remove openssh-server
+sudo apt install openssh-server
+
 sudo service ssh --full-restart
 ```
 
