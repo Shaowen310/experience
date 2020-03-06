@@ -1,5 +1,11 @@
 # SSH
 
+## Create SSH Keys
+
+```text
+ssh-keygen -t ed25519
+```
+
 ## SOCKS proxy
 
 ```text
