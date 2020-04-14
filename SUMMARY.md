@@ -40,6 +40,7 @@
   * [Data preprocess](ml/data-preprocess.md)
   * [Numpy](ml/numpy.md)
   * [Anaconda](ml/anaconda.md)
+  * [PyTorch](ml/pytorch.md)
   * [Light GBM](ml/lightgbm.md)
   * [Pandas](ml/pandas.md)
   * [matplotlib guide](ml/matploblib.md)
