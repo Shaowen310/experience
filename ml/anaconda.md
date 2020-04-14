@@ -12,6 +12,12 @@ conda create --name myenv python=3.7
 conda remove -n myenv --all
 ```
 
+## Update environment
+
+```text
+conda update --all
+```
+
 ## Clean cache
 
 ```text
