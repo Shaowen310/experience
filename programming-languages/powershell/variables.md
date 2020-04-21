@@ -1,10 +1,14 @@
 # Variables
 
+## Variable Declaration
+
 ```text
 $value=0
 ```
 
-### Command Line Arguments
+## Environment Variables
+
+### Command line arguments
 
 ```text
 .\cmd-arg-example1.ps1 FOO
