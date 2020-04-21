@@ -6,6 +6,8 @@
 $Value=0
 ```
 
+The line will be executed if the variable is assigned to a command.
+
 ### Conventions
 
 1. Variable names are in CamelCase
