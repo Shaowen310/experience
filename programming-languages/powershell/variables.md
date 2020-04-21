@@ -1,10 +1,18 @@
 # Variables
 
+## Variable Declaration
+
 ```text
-$value=0
+$Value=0
 ```
 
-### Command Line Arguments
+### Conventions
+
+1. Variable names are in CamelCase
+
+## Environment Variables
+
+### Command line arguments
 
 ```text
 .\cmd-arg-example1.ps1 FOO
