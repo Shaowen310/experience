@@ -17,7 +17,7 @@ The line will be executed if the variable is assigned to a command.
 ### Variable in a string
 
 ```text
-"$($variable)"
+"$variable"
 ```
 
 ## Environment Variables
