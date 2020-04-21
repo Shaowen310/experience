@@ -3,14 +3,22 @@
 ## Variable Declaration
 
 ```text
-$Value=0
+$value=0
 ```
 
 The line will be executed if the variable is assigned to a command.
 
 ### Conventions
 
-1. Variable names are in CamelCase
+1. Variable names are in camelCase
+
+## Variable Usage
+
+### Variable in a string
+
+```text
+"$($variable)"
+```
 
 ## Environment Variables
 
