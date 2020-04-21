@@ -6,7 +6,10 @@
 $value=0
 ```
 
-The line will be executed if the variable is assigned to a command.
+### Notes
+
+1. The line will be executed if a variable is assigned to a command.
+2. Variable names are not case sensitive.
 
 ### Conventions
 
