@@ -78,7 +78,7 @@
     * [Operators](programming-languages/powershell/operators.md)
     * [Conditional Statement](programming-languages/powershell/conditional-statement.md)
     * [File Operations](programming-languages/powershell/file-operations.md)
-    * [Execute String as Command](programming-languages/powershell/execute-string-as-command.md)
+    * [Execute a String as Command](programming-languages/powershell/execute-string-as-command.md)
   * [Python](programming-languages/python/README.md)
     * [Python functional programming](programming-languages/python/python-functional-programming.md)
     * [Python histogram](programming-languages/python/histogram.md)

@@ -1,4 +1,4 @@
-# Execute String as Command
+# Execute a String as Command
 
 ## Invoke-Expression
 
