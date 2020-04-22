@@ -87,6 +87,7 @@
     * [Python string](programming-languages/python/string.md)
     * [Python set](programming-languages/python/python-set.md)
     * [Python dict](programming-languages/python/dict.md)
+  * [Ruby](programming-languages/ruby.md)
 * [Regex](regex.md)
 * [SCM](scm/README.md)
   * [GitLab](scm/gitlab.md)
