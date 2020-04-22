@@ -1,10 +1,6 @@
-# Ruby
+# Libraries \(Gems\)
 
-## Installation
-
-[Doc](https://www.ruby-lang.org/en/documentation/installation/#apt)
-
-## Library Installation
+## Install a Library
 
 [Doc](https://guides.rubygems.org/command-reference/#gem-install)
 
@@ -18,15 +14,19 @@ Option: `--user-install`
 
 Needs to add `~/.gem/ruby/$RUBY_VERSION/bin` to `PATH` variable.
 
-## Interactive Shell
+## List Installed Libraries
 
-`irb`
+```ruby
+gem list
+```
 
-## Import Library
+## Import a Library
 
 Require a gem
 
 ```ruby
 require 'rake'
 ```
+
+
 
