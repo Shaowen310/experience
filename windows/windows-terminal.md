@@ -84,7 +84,7 @@
 
 #### Pre-defined color schemes
 
-Campbell, One Half Dark, One Half Light, Solarized Dark, Solarized Light
+Campbell, **One Half Dark**, One Half Light, Solarized Dark, Solarized Light
 
 ## References
 
