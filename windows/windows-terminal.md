@@ -22,7 +22,7 @@
             "source": "Windows.Terminal.Wsl",
             "colorScheme": "Dracula",
             "fontFace": "Roboto Mono Powerline",
-            "fontSize": 10
+            "fontSize": 11
         }
     ],
     // Add custom color schemes to this array
