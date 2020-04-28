@@ -19,7 +19,7 @@ pd.read_json()
 | timedelta\[ns\] | -- | -- | Difference between two datetimes |
 | category | -- | -- | Finite list of text values |
 
-## Schemas
+## Schema
 
 ### Columns
 
