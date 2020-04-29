@@ -6,6 +6,7 @@
 * [Database](database/README.md)
   * [Apache HBase](database/hbase.md)
   * [Postgres](database/postgres.md)
+  * [SQL](database/sql.md)
 * [Docker](docker/README.md)
   * [Connecting to a Remote Docker Daemon](docker/remote-docker-daemon.md)
   * [Docker installation](docker/docker-installation.md)
