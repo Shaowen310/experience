@@ -83,6 +83,7 @@
     * [Execute a String as Command](programming-languages/powershell/execute-string-as-command.md)
   * [Python](programming-languages/python/README.md)
     * [Python Reflection](programming-languages/python/python-reflection.md)
+    * [Python Special Methods](programming-languages/python/python-special-methods.md)
     * [Python functional programming](programming-languages/python/python-functional-programming.md)
     * [Python histogram](programming-languages/python/histogram.md)
     * [Python file I/O](programming-languages/python/file-i-o.md)
