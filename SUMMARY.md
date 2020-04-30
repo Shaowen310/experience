@@ -99,6 +99,7 @@
   * [Git](scm/git.md)
 * [Utils](utils/README.md)
   * [Pipe to/from the clipboard](utils/pipe-to-from-clipboard.md)
+  * [Curl](utils/curl.md)
   * [Task Schedulers](utils/task-scheduler.md)
   * [SSH](utils/ssh.md)
   * [FTP Server](utils/ftpserver.md)
