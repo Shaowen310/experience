@@ -1,4 +1,4 @@
-# Python functional programming
+# Python Stream
 
 ## Map, Filter and Reduce
 
