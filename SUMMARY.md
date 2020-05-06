@@ -19,6 +19,8 @@
   * [Docker logs](docker/docker-logs.md)
   * [Docker system](docker/docker-system.md)
   * [docker-compose](docker/docker-compose.md)
+* [IDE](ide/README.md)
+  * [Visual Studio Code](ide/visual-studio-code.md)
 * [Latex](latex/README.md)
   * [Fonts](latex/fonts.md)
   * [Algorithm](latex/algorithm.md)
