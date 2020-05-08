@@ -64,7 +64,7 @@ set -g mouse on
 Install zsh
 
 ```text
-sudo apt install zsh powerline fonts-powerline
+sudo apt install zsh
 ```
 
 Create `.zshrc`
@@ -77,7 +77,7 @@ cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 Modify `.zshrc`
 
 ```text
-ZSH_THEME="agnoster"
+ZSH_THEME="af-magic"
 ```
 
 Change default shell to zsh
