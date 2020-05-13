@@ -2,15 +2,7 @@
 
 ## Comparison
 
-|  | Permissions | Conditions | Limitations |
-| :--- | :--- | :--- | :--- |
-| [MIT](https://choosealicense.com/licenses/mit/) | Commercial use | License and copyright notice | Liability |
-|  | Distribution |  | Warranty |
-|  | Modification |  |  |
-|  | Private use |  |  |
-|  |  |  |  |
-
-
+[Doc](https://choosealicense.com/licenses/)
 
 ## Guide on Choosing an Appropriate License
 
