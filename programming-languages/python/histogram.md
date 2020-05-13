@@ -1,4 +1,4 @@
-# Python histogram
+# Python Histogram
 
 ## Counting elements
 
