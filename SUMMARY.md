@@ -7,6 +7,7 @@
   * [Apache HBase](database/hbase.md)
   * [Postgres](database/postgres.md)
   * [SQL](database/sql/README.md)
+    * [SQL Parser](database/sql/sql-parser.md)
     * [SQL Variations](database/sql/sql-variations.md)
 * [Docker](docker/README.md)
   * [Connecting to a Remote Docker Daemon](docker/remote-docker-daemon.md)
