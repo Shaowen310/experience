@@ -77,7 +77,7 @@ cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 Modify `.zshrc`
 
 ```text
-ZSH_THEME="af-magic"
+ZSH_THEME="fishy"
 ```
 
 Change default shell to zsh
