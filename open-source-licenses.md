@@ -2,7 +2,7 @@
 
 ## Comparison
 
-[Doc](https://choosealicense.com/licenses/)
+[Doc](https://opensource.org/licenses)
 
 ## Guide on Choosing an Appropriate License
 
@@ -10,5 +10,6 @@
 
 ## References
 
-1. [Choose an open source license](https://choosealicense.com/)
+1. [Open source initiative](https://opensource.org/)
+2. [Choose an open source license](https://choosealicense.com/)
 

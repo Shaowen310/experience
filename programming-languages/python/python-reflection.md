@@ -14,9 +14,5 @@ instance.__class__
 instance.__class__.__name__
 ```
 
-### Is Instance
 
-```python
-isinstance(instance, class_)
-```
 
