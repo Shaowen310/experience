@@ -41,8 +41,8 @@ WHERE dst_apid IN
 
 ### Summary
 
-* Python
-* Uses `libpg_query` , and supports only strict Postgres query \(no TSQL etc.\)
+* Python wrapper of [libpg\_query](https://github.com/lfittl/libpg_query)
+* Supports only strict Postgres query \(no TSQL etc.\)
 * Postgres internal AST
 * SQL formatter
 
@@ -52,31 +52,443 @@ Stops parsing at the first error occurred.
 
 Typical error message
 
-```text
+Example \(TSQL\)
 
+`SELECT [T1].[country] FROM [airlines] AS [T1]`
+
+```text
+ParseError: syntax error at or near "[", at location 8
 ```
 
 ### Typical AST format
+
+It is in JSON format. Node definitions can be found in Postgres' documentation.
+
+The meaning of special numbers can be found in enum class provided by `pglast`.
 
 #### Example
 
 JOIN query
 
-```text
-
+```javascript
+{
+    "stmt": {
+        "SelectStmt": {
+            "targetList": [
+                {
+                    "ResTarget": {
+                        "val": {
+                            "ColumnRef": {
+                                "fields": [
+                                    {
+                                        "String": {
+                                            "str": "t1"
+                                        }
+                                    },
+                                    {
+                                        "String": {
+                                            "str": "country"
+                                        }
+                                    }
+                                ],
+                                "location": 7
+                            }
+                        },
+                        "location": 7
+                    }
+                },
+                {
+                    "ResTarget": {
+                        "val": {
+                            "ColumnRef": {
+                                "fields": [
+                                    {
+                                        "String": {
+                                            "str": "t1"
+                                        }
+                                    },
+                                    {
+                                        "String": {
+                                            "str": "name"
+                                        }
+                                    }
+                                ],
+                                "location": 23
+                            }
+                        },
+                        "location": 23
+                    }
+                },
+                {
+                    "ResTarget": {
+                        "val": {
+                            "FuncCall": {
+                                "funcname": [
+                                    {
+                                        "String": {
+                                            "str": "count"
+                                        }
+                                    }
+                                ],
+                                "agg_star": true,
+                                "location": 36
+                            }
+                        },
+                        "location": 36
+                    }
+                }
+            ],
+            "fromClause": [
+                {
+                    "JoinExpr": {
+                        "jointype": 0,
+                        "larg": {
+                            "RangeVar": {
+                                "relname": "airlines",
+                                "inh": true,
+                                "relpersistence": "p",
+                                "alias": {
+                                    "Alias": {
+                                        "aliasname": "t1"
+                                    }
+                                },
+                                "location": 50
+                            }
+                        },
+                        "rarg": {
+                            "RangeVar": {
+                                "relname": "routes",
+                                "inh": true,
+                                "relpersistence": "p",
+                                "alias": {
+                                    "Alias": {
+                                        "aliasname": "t2"
+                                    }
+                                },
+                                "location": 70
+                            }
+                        },
+                        "quals": {
+                            "A_Expr": {
+                                "kind": 0,
+                                "name": [
+                                    {
+                                        "String": {
+                                            "str": "="
+                                        }
+                                    }
+                                ],
+                                "lexpr": {
+                                    "ColumnRef": {
+                                        "fields": [
+                                            {
+                                                "String": {
+                                                    "str": "t1"
+                                                }
+                                            },
+                                            {
+                                                "String": {
+                                                    "str": "alid"
+                                                }
+                                            }
+                                        ],
+                                        "location": 86
+                                    }
+                                },
+                                "rexpr": {
+                                    "ColumnRef": {
+                                        "fields": [
+                                            {
+                                                "String": {
+                                                    "str": "t2"
+                                                }
+                                            },
+                                            {
+                                                "String": {
+                                                    "str": "alid"
+                                                }
+                                            }
+                                        ],
+                                        "location": 96
+                                    }
+                                },
+                                "location": 94
+                            }
+                        }
+                    }
+                }
+            ],
+            "groupClause": [
+                {
+                    "ColumnRef": {
+                        "fields": [
+                            {
+                                "String": {
+                                    "str": "t1"
+                                }
+                            },
+                            {
+                                "String": {
+                                    "str": "country"
+                                }
+                            }
+                        ],
+                        "location": 113
+                    }
+                },
+                {
+                    "ColumnRef": {
+                        "fields": [
+                            {
+                                "String": {
+                                    "str": "t1"
+                                }
+                            },
+                            {
+                                "String": {
+                                    "str": "name"
+                                }
+                            }
+                        ],
+                        "location": 129
+                    }
+                }
+            ],
+            "op": 0
+        }
+    }
+}
 ```
 
 Subquery
 
-```text
-
+```javascript
+{
+    "stmt": {
+        "SelectStmt": {
+            "targetList": [
+                {
+                    "ResTarget": {
+                        "val": {
+                            "FuncCall": {
+                                "funcname": [
+                                    {
+                                        "String": {
+                                            "str": "count"
+                                        }
+                                    }
+                                ],
+                                "agg_star": true,
+                                "location": 7
+                            }
+                        },
+                        "location": 7
+                    }
+                }
+            ],
+            "fromClause": [
+                {
+                    "RangeVar": {
+                        "relname": "routes",
+                        "inh": true,
+                        "relpersistence": "p",
+                        "location": 21
+                    }
+                }
+            ],
+            "whereClause": {
+                "BoolExpr": {
+                    "boolop": 0,
+                    "args": [
+                        {
+                            "SubLink": {
+                                "subLinkType": 2,
+                                "testexpr": {
+                                    "ColumnRef": {
+                                        "fields": [
+                                            {
+                                                "String": {
+                                                    "str": "dst_apid"
+                                                }
+                                            }
+                                        ],
+                                        "location": 34
+                                    }
+                                },
+                                "subselect": {
+                                    "SelectStmt": {
+                                        "targetList": [
+                                            {
+                                                "ResTarget": {
+                                                    "val": {
+                                                        "ColumnRef": {
+                                                            "fields": [
+                                                                {
+                                                                    "String": {
+                                                                        "str": "apid"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "location": 62
+                                                        }
+                                                    },
+                                                    "location": 62
+                                                }
+                                            }
+                                        ],
+                                        "fromClause": [
+                                            {
+                                                "RangeVar": {
+                                                    "relname": "airports",
+                                                    "inh": true,
+                                                    "relpersistence": "p",
+                                                    "location": 81
+                                                }
+                                            }
+                                        ],
+                                        "whereClause": {
+                                            "A_Expr": {
+                                                "kind": 0,
+                                                "name": [
+                                                    {
+                                                        "String": {
+                                                            "str": "="
+                                                        }
+                                                    }
+                                                ],
+                                                "lexpr": {
+                                                    "ColumnRef": {
+                                                        "fields": [
+                                                            {
+                                                                "String": {
+                                                                    "str": "country"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "location": 105
+                                                    }
+                                                },
+                                                "rexpr": {
+                                                    "A_Const": {
+                                                        "val": {
+                                                            "String": {
+                                                                "str": "Canada"
+                                                            }
+                                                        },
+                                                        "location": 115
+                                                    }
+                                                },
+                                                "location": 113
+                                            }
+                                        },
+                                        "op": 0
+                                    }
+                                },
+                                "location": 43
+                            }
+                        },
+                        {
+                            "SubLink": {
+                                "subLinkType": 2,
+                                "testexpr": {
+                                    "ColumnRef": {
+                                        "fields": [
+                                            {
+                                                "String": {
+                                                    "str": "src_apid"
+                                                }
+                                            }
+                                        ],
+                                        "location": 133
+                                    }
+                                },
+                                "subselect": {
+                                    "SelectStmt": {
+                                        "targetList": [
+                                            {
+                                                "ResTarget": {
+                                                    "val": {
+                                                        "ColumnRef": {
+                                                            "fields": [
+                                                                {
+                                                                    "String": {
+                                                                        "str": "apid"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "location": 161
+                                                        }
+                                                    },
+                                                    "location": 161
+                                                }
+                                            }
+                                        ],
+                                        "fromClause": [
+                                            {
+                                                "RangeVar": {
+                                                    "relname": "airports",
+                                                    "inh": true,
+                                                    "relpersistence": "p",
+                                                    "location": 180
+                                                }
+                                            }
+                                        ],
+                                        "whereClause": {
+                                            "A_Expr": {
+                                                "kind": 0,
+                                                "name": [
+                                                    {
+                                                        "String": {
+                                                            "str": "="
+                                                        }
+                                                    }
+                                                ],
+                                                "lexpr": {
+                                                    "ColumnRef": {
+                                                        "fields": [
+                                                            {
+                                                                "String": {
+                                                                    "str": "country"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "location": 204
+                                                    }
+                                                },
+                                                "rexpr": {
+                                                    "A_Const": {
+                                                        "val": {
+                                                            "String": {
+                                                                "str": "United States"
+                                                            }
+                                                        },
+                                                        "location": 214
+                                                    }
+                                                },
+                                                "location": 212
+                                            }
+                                        },
+                                        "op": 0
+                                    }
+                                },
+                                "location": 142
+                            }
+                        }
+                    ],
+                    "location": 129
+                }
+            },
+            "op": 0
+        }
+    }
+}
 ```
 
 ## sqlparse
 
 ### Summary
 
-* Python
+* Pure python
 * Non-validating, and supports any SQL-like syntax
 * Custom SQL AST
 * SQL formatter
@@ -87,7 +499,7 @@ Non-validating
 
 ### Typical AST format
 
-Enhanced and removed all extra whitespace tokens.
+Enhanced it and removed all extra whitespace tokens.
 
 #### Example
 
@@ -171,7 +583,6 @@ query = join_query...
 Subquery
 
 ```text
-
 query = subquery...
 |- 0 DML 'SELECT'
 |- 1 Whitespace ' '
