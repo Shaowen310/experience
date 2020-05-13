@@ -28,6 +28,8 @@ json.dump(data_obj, io)
 
 #### pandas library
 
+For table-structured data
+
 `pandas.read_json`
 
 [Doc](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_json.html)
