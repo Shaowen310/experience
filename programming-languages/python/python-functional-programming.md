@@ -2,10 +2,26 @@
 
 ## Collectors
 
+### Constructors
+
 ```python
-list(stream_obj)
-set(stream_obj)
-dict(stream_obj)
+list(iterable)
+tuple(iterable)
+set(iterable)
+dict(iterable)
+```
+
+### Reduce
+
+`Reduce` applies a rolling computation to sequential pairs of values in a list. One example is to compute the product of a list of integers.
+
+#### Example
+
+```python
+from functools import reduce
+product = reduce((lambda x, y: x * y), [1, 2, 3, 4])
+
+# Output: 24
 ```
 
 ## Generators
@@ -40,8 +56,6 @@ Output
 2
 3
 ```
-
-## Map, Filter and Reduce
 
 ### Map
 
@@ -100,19 +114,6 @@ print(less_than_zero)
 The filter resembles a for loop but it is a builtin function and faster.
 
 **Note:** If map & filter do not appear beautiful to you then you can read about `list/dict/tuple` comprehensions.
-
-### Reduce
-
-`Reduce` applies a rolling computation to sequential pairs of values in a list. One example is to compute the product of a list of integers.
-
-#### Example
-
-```python
-from functools import reduce
-product = reduce((lambda x, y: x * y), [1, 2, 3, 4])
-
-# Output: 24
-```
 
 ## References
 
