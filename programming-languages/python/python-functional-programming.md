@@ -1,5 +1,13 @@
 # Python Stream
 
+## Collectors
+
+```python
+list(stream_obj)
+set(stream_obj)
+dict(stream_obj)
+```
+
 ## Map, Filter and Reduce
 
 ### Map
