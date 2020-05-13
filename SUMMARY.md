@@ -95,7 +95,6 @@
     * [Python string](programming-languages/python/string.md)
     * [Python set](programming-languages/python/python-set.md)
     * [Python dict](programming-languages/python/dict.md)
-    * [Python Generators](programming-languages/python/python-generators.md)
   * [Ruby](programming-languages/ruby/README.md)
     * [Libraries \(Gems\)](programming-languages/ruby/libraries-gems.md)
 * [Regex](regex.md)
