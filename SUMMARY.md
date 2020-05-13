@@ -118,4 +118,6 @@
     * [Spring data JPA](web/spring-framework/spring-data-jpa.md)
 * [Windows](windows/README.md)
   * [Windows Terminal](windows/windows-terminal.md)
+* [Open Source Licenses](open-source-licenses/README.md)
+  * [MIT](open-source-licenses/mit.md)
 
