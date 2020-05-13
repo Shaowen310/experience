@@ -94,7 +94,6 @@
     * [Python Regex](programming-languages/python/python-regex.md)
     * [Python String](programming-languages/python/string.md)
     * [Python List Set Dict](programming-languages/python/python-set.md)
-    * [Python dict](programming-languages/python/dict.md)
   * [Ruby](programming-languages/ruby/README.md)
     * [Libraries \(Gems\)](programming-languages/ruby/libraries-gems.md)
 * [Regex](regex.md)
