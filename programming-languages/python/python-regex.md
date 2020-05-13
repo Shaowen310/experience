@@ -1,4 +1,4 @@
-# Python regex
+# Python Regex
 
 ## References
 

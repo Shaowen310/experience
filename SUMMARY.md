@@ -91,7 +91,7 @@
     * [Python Stream](programming-languages/python/python-functional-programming.md)
     * [Python File I/O](programming-languages/python/file-i-o.md)
     * [Python Histogram](programming-languages/python/histogram.md)
-    * [Python regex](programming-languages/python/python-regex.md)
+    * [Python Regex](programming-languages/python/python-regex.md)
     * [Python string](programming-languages/python/string.md)
     * [Python set](programming-languages/python/python-set.md)
     * [Python dict](programming-languages/python/dict.md)
