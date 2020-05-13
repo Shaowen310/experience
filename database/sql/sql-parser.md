@@ -45,6 +45,8 @@ WHERE dst_apid IN
 * Supports only strict Postgres query \(no TSQL etc.\)
 * Postgres internal AST
 * SQL formatter
+* GPLv3 \(copyleft\)
+* Github stars: 60+
 
 ### Error handling
 
@@ -492,6 +494,8 @@ Subquery
 * Non-validating, and supports any SQL-like syntax
 * Custom SQL AST
 * SQL formatter
+* BSD-3-Clause
+* Github stars: 2k \(very popular\)
 
 ### Error handling
 
