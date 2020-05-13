@@ -43,6 +43,12 @@ conda update --all
 conda clean -a
 ```
 
+### Hide environment info
+
+```text
+conda config --set changeps1 False
+```
+
 ## Using anaconda with Visual Studio Code
 
 ### Numpy DLL not found
