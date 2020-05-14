@@ -8,9 +8,7 @@
 
 #### Data preprocess
 
-VGG takes in a 224x224 pixel RGB image as input. 
-
-For the ImageNet competition, the authors cropped out the center 224x224 patch in each image to keep the input image size consistent.
+Input. VGG takes in a 224x224 pixel RGB image. For the ImageNet competition, the authors cropped out the center 224x224 patch in each image to keep the input image size consistent.
 
 #### Convolution layers
 
@@ -28,7 +26,7 @@ Another advantage of stacking two convolutions instead of one is that we use two
 
 #### Pooling layers
 
-After a convolution operation we usually perform pooling to reduce the dimensionality. This enables us to reduce the number of parameters, which both shortens the training time and combats overfitting. Pooling layers down-sample each feature map independently, reducing the height and width, keeping the depth intact.
+After a convolution operation we usually perform pooling to reduce the dimensionality. This enables us to reduce the number of parameters, which both shortens the training time and combats overfitting. Pooling layers downsample each feature map independently, reducing the height and width, keeping the depth intact.
 
 #### Fully-connected layers
 

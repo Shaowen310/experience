@@ -45,6 +45,7 @@
 * [ML](ml/README.md)
   * [Anaconda](ml/anaconda.md)
   * [Deep learning network architectures](ml/deep-learning-network-architectures/README.md)
+    * [GAN](ml/deep-learning-network-architectures/gan.md)
     * [Autoencoder](ml/deep-learning-network-architectures/autoencoder.md)
     * [Convolutional Neural Networks](ml/deep-learning-network-architectures/cnn.md)
   * [Numpy](ml/numpy.md)
