@@ -8,7 +8,7 @@
 
 ### Set working directory
 
-`debug.json`
+`launch.json`
 
 ```text
  "cwd": "${workspaceFolder}",
