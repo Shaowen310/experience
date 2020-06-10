@@ -11,6 +11,8 @@ if 'key1' in d:
     print('key:"key1" exists')
 ```
 
+### Value retrieval
+
 #### get
 
 If a default value is required
