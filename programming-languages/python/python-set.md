@@ -2,6 +2,23 @@
 
 ## Dict
 
+### Key existence
+
+#### in
+
+```python
+if 'key1' in d:
+    print('key:"key1" exists')
+```
+
+#### get
+
+If a default value is required
+
+```python
+d.get(key, 0)
+```
+
 ### Traversing
 
 ```python
