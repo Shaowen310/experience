@@ -23,6 +23,7 @@
 * [IDE](ide/README.md)
   * [Visual Studio Code](ide/visual-studio-code.md)
 * [Latex](latex/README.md)
+  * [Equations](latex/equations.md)
   * [Fonts](latex/fonts.md)
   * [Algorithm](latex/algorithm.md)
 * [Linux](linux/README.md)
