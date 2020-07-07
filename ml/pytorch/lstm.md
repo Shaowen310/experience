@@ -9,7 +9,9 @@
 | Argument | Description |
 | :--- | :--- |
 | input\_size | n\_features |
+| hidden\_size | See training |
 | batch\_first | See training |
+| dropout | dropout ratio |
 
 ## Training
 
