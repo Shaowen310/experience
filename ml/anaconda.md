@@ -43,6 +43,12 @@ conda update --all
 conda clean -a
 ```
 
+### Don't activate base environment automatically
+
+```text
+conda config --set auto_activate_base false
+```
+
 ### Hide environment info
 
 ```text
