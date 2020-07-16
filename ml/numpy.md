@@ -58,6 +58,19 @@ np._ix()
 np.nonzero()
 ```
 
+### Slicing
+
+```python
+# Slice first n rows
+arr[:n, :]
+# Slice last n rows
+arr[:-n, :]
+# Slice first n rows, step m
+arr[0:n:m, :]
+# ... <=> :,:,:...
+arr[:n, ...]
+```
+
 ## Broadcasting utilities
 
 ```python
