@@ -135,4 +135,5 @@ product = reduce((lambda x, y: x * y), [1, 2, 3, 4])
 
 1. [Stack Overflow: What does the “yield” keyword do?](https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do)
 2. [Python Tips: Map, Filter and Reduce](https://book.pythontips.com/en/latest/map_filter.html)
+3. [Python Documentation: Built-in Functions](https://docs.python.org/3/library/functions.html)
 
