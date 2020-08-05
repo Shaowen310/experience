@@ -103,6 +103,8 @@
 * [SCM](scm/README.md)
   * [GitLab](scm/gitlab.md)
   * [Git](scm/git.md)
+* [Software Removal](software-removal/README.md)
+  * [Microsoft Edge](software-removal/microsoft-edge.md)
 * [Utils](utils/README.md)
   * [Pipe to/from the clipboard](utils/pipe-to-from-clipboard.md)
   * [Curl](utils/curl.md)
