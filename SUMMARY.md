@@ -51,6 +51,7 @@
     * [Convolutional Neural Networks](ml/deep-learning-network-architectures/cnn.md)
   * [Numpy](ml/numpy.md)
   * [PyTorch](ml/pytorch/README.md)
+    * [torch.Tensor vs torch.tensor](ml/pytorch/torch.tensor-vs-torch.tensor.md)
     * [LSTM](ml/pytorch/lstm.md)
   * [Light GBM](ml/lightgbm.md)
   * [Pandas](ml/pandas.md)
