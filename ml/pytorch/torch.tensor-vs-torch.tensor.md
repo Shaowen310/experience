@@ -4,7 +4,7 @@
 
 `torch.tensor` initialise a tensor with data
 
-`torch.empty` initialise a tensor with given size
+`torch.empty` initialise a tensor with size
 
 Using `torch.tensor` and `torch.empty` are preferred
 
