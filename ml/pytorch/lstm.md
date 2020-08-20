@@ -22,14 +22,14 @@
 | Argument | Description |
 | :--- | :--- |
 | x | \(seq\_len, batch\_size, input\_size\) |
-|   | if batch\_first==True, \(batch\_size, seq\_len, input\_size\) |
+|  | if batch\_first==True, \(batch\_size, seq\_len, input\_size\) |
 
 ### Output
 
 | Variable | Description |
 | :--- | :--- |
 | output | \(seq\_len, batch\_size, hidden\_size \* n\_directions\) |
-|   | if batch\_first==True, \(batch\_size, seq\_len, hidden\_size \* n\_directions\) |
+|  | if batch\_first==True, \(batch\_size, seq\_len, hidden\_size \* n\_directions\) |
 
 
 
