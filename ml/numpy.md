@@ -21,7 +21,7 @@ np.random.randint()
 ## Transform
 
 ```python
-np.reshape()
+np.reshape(a, newshape, order='C')
 np.transpose()
 ```
 

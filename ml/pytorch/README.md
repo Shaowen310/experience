@@ -1,37 +1,15 @@
 # PyTorch
 
-## Tensor
+## Installation
 
-### Transformation
+{% embed url="https://pytorch.org/get-started/locally/" %}
 
-```python
-torch.view(dim0, dim1, ...)
-```
+## Tricks
 
-### Random indices
+### Deterministic
 
-```python
-torch.randint(low=0, high, size)
-```
-
-high\(int\) - exclusive
-
-size\(tuple\)
-
-## NN
-
-### Weight transfer
-
-```python
-net.weight.data.copy_(w)
-```
-
-### Deterministic networks
-
-```python
+```text
 torch.manual_seed(SEED)
 torch.backends.cudnn.deterministic = True
 ```
-
-
 
