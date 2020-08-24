@@ -20,9 +20,16 @@ size: tuple
 
 ### Type conversion
 
-[`torch.tensor()`](https://pytorch.org/docs/stable/generated/torch.tensor.html#torch.tensor) always copies `data`. 
+#### Data type
+
+```python
+Torch.long()
+Torch.float()
+```
 
 #### require\_grad flag
+
+[`torch.tensor()`](https://pytorch.org/docs/stable/generated/torch.tensor.html#torch.tensor) always copies `data`. 
 
 If you have a Tensor `data` and just want to change its `requires_grad` flag, use [`requires_grad_()`](https://pytorch.org/docs/stable/tensors.html#torch.Tensor.requires_grad_) or [`detach()`](https://pytorch.org/docs/stable/autograd.html#torch.Tensor.detach) to avoid a copy. 
 
@@ -34,7 +41,7 @@ Use `Tensor.numpy()` to convert a tensor to a numpy array.
 
 #### Tensor and python number
 
-Use `Tensor.item()` to convert an one-element tensor to a python number.
+Use `Tensor.item()` to convert a one-element tensor to a python number.
 
 ## NN
 
