@@ -1,15 +1,43 @@
 # PyTorch
 
-## Installation
+## Tensor
 
-{% embed url="https://pytorch.org/get-started/locally/" %}
+### Transformation
 
-## Tricks
+```python
+torch.view(dim0, dim1, ...)
+```
 
-### Deterministic
+### Random indices
 
-```text
+```python
+torch.randint(low=0, high, size)
+```
+
+high: int - exclusive
+
+size: tuple
+
+### Type conversion
+
+[`torch.tensor()`](https://pytorch.org/docs/stable/generated/torch.tensor.html#torch.tensor) always copies `data`. If you have a Tensor `data` and just want to change its `requires_grad` flag, use [`requires_grad_()`](https://pytorch.org/docs/stable/tensors.html#torch.Tensor.requires_grad_) or [`detach()`](https://pytorch.org/docs/stable/autograd.html#torch.Tensor.detach) to avoid a copy. If you have a numpy array and want to avoid a copy, use [`torch.as_tensor()`](https://pytorch.org/docs/stable/generated/torch.as_tensor.html#torch.as_tensor).
+
+## NN
+
+### Weight transfer
+
+```python
+net.weight.data.copy_(w)
+```
+
+### Deterministic networks
+
+```python
 torch.manual_seed(SEED)
 torch.backends.cudnn.deterministic = True
 ```
+
+## References
+
+1. [PyTorch Doc tensor](https://pytorch.org/docs/stable/tensors.html)
 
