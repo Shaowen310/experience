@@ -23,8 +23,8 @@ size: tuple
 #### Data type
 
 ```python
-Torch.long()
-Torch.float()
+Tensor.long()
+Tensor.float()
 ```
 
 #### require\_grad flag
