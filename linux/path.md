@@ -14,7 +14,7 @@ Append
 PATH=$PATH:~/opt/bin
 ```
 
-depending on whether you want to add `~/opt/bin` at the end \(to be searched after all other directories in case there is a program by the same name in multiple directories\) or at the beginning \(to be searched before all other directories\).
+The directory appears first will be searched first.
 
 ## References
 

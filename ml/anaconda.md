@@ -2,7 +2,7 @@
 
 ## Installation
 
-Miniconda installation guide: [doc](https://docs.conda.io/en/latest/miniconda.html)
+Command line installation guide: [doc](https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart)
 
 ## Environment Management
 
