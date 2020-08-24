@@ -20,7 +20,21 @@ size: tuple
 
 ### Type conversion
 
-[`torch.tensor()`](https://pytorch.org/docs/stable/generated/torch.tensor.html#torch.tensor) always copies `data`. If you have a Tensor `data` and just want to change its `requires_grad` flag, use [`requires_grad_()`](https://pytorch.org/docs/stable/tensors.html#torch.Tensor.requires_grad_) or [`detach()`](https://pytorch.org/docs/stable/autograd.html#torch.Tensor.detach) to avoid a copy. If you have a numpy array and want to avoid a copy, use [`torch.as_tensor()`](https://pytorch.org/docs/stable/generated/torch.as_tensor.html#torch.as_tensor).
+[`torch.tensor()`](https://pytorch.org/docs/stable/generated/torch.tensor.html#torch.tensor) always copies `data`. 
+
+#### require\_grad flag
+
+If you have a Tensor `data` and just want to change its `requires_grad` flag, use [`requires_grad_()`](https://pytorch.org/docs/stable/tensors.html#torch.Tensor.requires_grad_) or [`detach()`](https://pytorch.org/docs/stable/autograd.html#torch.Tensor.detach) to avoid a copy. 
+
+#### Tensor and numpy array
+
+Use [`torch.as_tensor()`](https://pytorch.org/docs/stable/generated/torch.as_tensor.html#torch.as_tensor) to convert a numpy array to a tensor without copying data.
+
+Use `Tensor.numpy()` to convert a tensor to a numpy array.
+
+#### Tensor and python number
+
+Use `Tensor.item()` to convert an one-element tensor to a python number.
 
 ## NN
 
