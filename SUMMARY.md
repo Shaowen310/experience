@@ -75,6 +75,7 @@
   * [OpenVPN](network/openvpn.md)
   * [ip](network/ip.md)
   * [DNS configuration](network/dns.md)
+* [Open Source Licenses](open-source-lic.md)
 * [Programming Languages](programming-languages/README.md)
   * [C](programming-languages/c/README.md)
     * [cmake](programming-languages/c/cmake.md)
@@ -124,5 +125,4 @@
     * [Spring data JPA](web/spring-framework/spring-data-jpa.md)
 * [Windows](windows/README.md)
   * [Windows Terminal](windows/windows-terminal.md)
-* [Open Source Licenses](open-source-lic.md)
 
