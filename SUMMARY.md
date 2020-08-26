@@ -26,7 +26,7 @@
   * [Equations](latex/equations.md)
   * [Fonts](latex/fonts.md)
   * [Algorithm](latex/algorithm.md)
-  * [References](latex/references.md)
+  * [Bibliography Management](latex/references.md)
 * [Linux](linux/README.md)
   * [PATH](linux/path.md)
   * [Change default python version](linux/change-default-python-version.md)
