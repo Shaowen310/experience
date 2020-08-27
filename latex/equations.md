@@ -9,9 +9,5 @@
 \end{align*}
 ```
 
-KaTeX
 
-`begin{aligned}`
-
- 
 

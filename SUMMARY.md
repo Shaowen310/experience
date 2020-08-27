@@ -53,6 +53,7 @@
   * [Numpy](ml/numpy.md)
   * [PyTorch](ml/pytorch/README.md)
     * [PyTorch Installation](ml/pytorch/pytorch-installation.md)
+    * [PyTorch Classification](ml/pytorch/pytorch-classification.md)
     * [torch.Tensor vs torch.tensor](ml/pytorch/torch.tensor-vs-torch.tensor.md)
     * [LSTM](ml/pytorch/lstm.md)
   * [Light GBM](ml/lightgbm.md)
