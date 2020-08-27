@@ -36,6 +36,12 @@ The *input* given through a forward call is expected to contain log-probabilitie
 
 The *target* that this loss expects should be a class index in the range [0,C−1] where C = number of classes.
 
+Loss for an instance
+
+$$ l_n = - w_{y_n} x_{n,y_n} $$
+
+What it does is just taking the negative of the log-probability corresponding to the ground truth class. The goal is to make the inferenced probability distribution fit the ground truth probability distribution.
+
 ### Cross Entropy Loss
 
 `torch.nn.CrossEntropyLoss(weight: Optional[torch.Tensor] = None, reduction: str = 'mean')`
