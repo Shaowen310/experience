@@ -24,9 +24,9 @@ $$
 
 ## Loss functions
 
-### Negative Log-Likelihood Loss
-
 `output = loss(input, target)`
+
+### Negative Log-Likelihood Loss
 
 `torch.nn.NLLLoss(weight: Optional[torch.Tensor] = None, reduction: str = 'mean')`
 
