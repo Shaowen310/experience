@@ -1,14 +1,15 @@
 # Numpy
 
-## Initializtion
+## Initialisation
 
 ```python
 np.zeros()
 np.empty()
 np.full()
 np.arange()
-np.asarray()
 ```
+
+`np.asarray()` : No copy is performed if the input is already an ndarray with matching dtype and order.
 
 ## Random
 

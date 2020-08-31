@@ -1,29 +1,5 @@
 # Python Stream
 
-## Collectors
-
-### Constructors
-
-```python
-list(iterable)
-tuple(iterable)
-set(iterable)
-dict(iterable)
-```
-
-### Reduce
-
-`Reduce` applies a rolling computation to sequential pairs of values in a list. One example is to compute the product of a list of integers.
-
-#### Example
-
-```python
-from functools import reduce
-product = reduce((lambda x, y: x * y), [1, 2, 3, 4])
-
-# Output: 24
-```
-
 ## Generators
 
 Generators are iterators, but **you can only iterate over them once**.
@@ -115,8 +91,49 @@ The filter resembles a for loop but it is a builtin function and faster.
 
 **Note:** If map & filter do not appear beautiful to you then you can read about `list/dict/tuple` comprehensions.
 
+## Iterator
+
+### next
+
+#### Example
+
+```python
+gen_int = generate_int()
+next(gen_int)
+# 0
+next(gen_int)
+# 1
+next(gen_int)
+# 2
+```
+
+## Collectors
+
+### Constructors
+
+```python
+list(iterable)
+tuple(iterable)
+set(iterable)
+dict(iterable)
+```
+
+### Reduce
+
+`Reduce` applies a rolling computation to sequential pairs of values in a list. One example is to compute the product of a list of integers.
+
+#### Example
+
+```python
+from functools import reduce
+product = reduce((lambda x, y: x * y), [1, 2, 3, 4])
+
+# Output: 24
+```
+
 ## References
 
 1. [Stack Overflow: What does the “yield” keyword do?](https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do)
 2. [Python Tips: Map, Filter and Reduce](https://book.pythontips.com/en/latest/map_filter.html)
+3. [Python Documentation: Built-in Functions](https://docs.python.org/3/library/functions.html)
 
