@@ -51,13 +51,6 @@ df.at[3, 'name']
 df.iat[3, 0]
 ```
 
-`ix` supports both labels and positions
-
-```python
-df.ix[0:3, [0, 3]]
-df.ix[0:3, ['name', 'gender']]
-```
-
 Select by rows or columns only
 
 ```python
