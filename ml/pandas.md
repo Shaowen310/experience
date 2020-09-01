@@ -58,7 +58,7 @@ df.ix[0:3, [0, 3]]
 df.ix[0:3, ['name', 'gender']]
 ```
 
-Select rows or columns only
+Select by rows or columns only
 
 ```python
 # rows by indexes
