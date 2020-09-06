@@ -27,12 +27,6 @@ Tensor.long()
 Tensor.float()
 ```
 
-#### require\_grad flag
-
-[`torch.tensor()`](https://pytorch.org/docs/stable/generated/torch.tensor.html#torch.tensor) always copies `data`. 
-
-If you have a Tensor `data` and just want to change its `requires_grad` flag, use [`requires_grad_()`](https://pytorch.org/docs/stable/tensors.html#torch.Tensor.requires_grad_) or [`detach()`](https://pytorch.org/docs/stable/autograd.html#torch.Tensor.detach) to avoid a copy. 
-
 #### Tensor and numpy array
 
 Use [`torch.as_tensor()`](https://pytorch.org/docs/stable/generated/torch.as_tensor.html#torch.as_tensor) to convert a numpy array to a tensor without copying data.
@@ -45,6 +39,12 @@ Note: if conversion is done using the methods mentioned above, modification of a
 
 Use `Tensor.item()` to convert a one-element tensor to a python number.
 
+### require\_grad flag
+
+[`torch.tensor()`](https://pytorch.org/docs/stable/generated/torch.tensor.html#torch.tensor) always copies `data`. 
+
+If you have a Tensor `data` and just want to change its `requires_grad` flag, use [`requires_grad_()`](https://pytorch.org/docs/stable/tensors.html#torch.Tensor.requires_grad_) or [`detach()`](https://pytorch.org/docs/stable/autograd.html#torch.Tensor.detach) to avoid a copy. 
+
 
 
 ## NN
@@ -54,6 +54,10 @@ Use `Tensor.item()` to convert a one-element tensor to a python number.
 ```python
 net.weight.data.copy_(w)
 ```
+
+### Gradient accumulation
+
+Gradient accumulation is on by default. Use `optimizer.zero_grad()` to stop gradient accumulation.
 
 ### Deterministic networks
 
