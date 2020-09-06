@@ -10,13 +10,17 @@ torch.view(dim0, dim1, ...)
 
 ### Random indices
 
-```python
-torch.randint(low=0, high, size)
-```
+#### randint
 
-high: int - exclusive
+`torch.randint(low=0, high, size)`
 
-size: tuple
+_high_: int - exclusive
+
+_size_: tuple
+
+#### randperm
+
+`torch.randperm(n, dtype=torch.int64, layout=torch.strided)`
 
 ### Type conversion
 
