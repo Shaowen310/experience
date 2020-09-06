@@ -49,8 +49,6 @@ Use `Tensor.item()` to convert a one-element tensor to a python number.
 
 If you have a Tensor `data` and just want to change its `requires_grad` flag, use [`requires_grad_()`](https://pytorch.org/docs/stable/tensors.html#torch.Tensor.requires_grad_) or [`detach()`](https://pytorch.org/docs/stable/autograd.html#torch.Tensor.detach) to avoid a copy. 
 
-
-
 ## NN
 
 ### Weight transfer
