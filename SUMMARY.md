@@ -56,6 +56,7 @@
     * [PyTorch Classification](ml/pytorch/pytorch-classification/README.md)
       * [Multi-class Classification](ml/pytorch/pytorch-classification/multi-class-classification.md)
     * [torch.Tensor vs torch.tensor](ml/pytorch/torch.tensor-vs-torch.tensor.md)
+    * [PyTorch Evaluation](ml/pytorch/pytorch-evaluation.md)
     * [LSTM](ml/pytorch/lstm.md)
   * [Light GBM](ml/lightgbm.md)
   * [Pandas](ml/pandas.md)
