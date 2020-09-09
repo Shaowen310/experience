@@ -4,9 +4,11 @@
 
 `model.train()`
 
-Same as
+Use
 
 `input.requires_grad_()`
+
+to state the variables for gradient calculation explicitly
 
 ## Evaluation environment
 
