@@ -6,7 +6,7 @@
 
 Same as
 
-input.require\_grad\_\(\)
+`input.requires_grad_()`
 
 ## Evaluation environment
 
