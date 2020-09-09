@@ -1,24 +1,22 @@
 # PyTorch Evaluation
 
-## Training environment
+## Training/evaluation environment
 
 `model.train()`
 
-Use
-
-`input.requires_grad_()`
-
-to state the variables for gradient calculation explicitly
-
-## Evaluation environment
-
 `model.eval()`
 
-## Disable gradient calculation
+changes the `forward()` behaviour of the module it is called upon eg, it changes the behaviour of dropout and batch normalisation layers.
+
+## Enable/disable gradient calculation
+
+`inputs.requires_grad_()`
+
+`output.detach()`
 
 `with torch.no_grad():`
 
-But it keeps the previous training environment.
+ 
 
 
 
