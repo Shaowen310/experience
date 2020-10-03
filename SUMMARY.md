@@ -55,6 +55,7 @@
   * [Numpy](ml/numpy.md)
   * [PyTorch](ml/pytorch/README.md)
     * [PyTorch Installation](ml/pytorch/pytorch-installation.md)
+    * [PyTorch Basics](ml/pytorch/pytorch-basics.md)
     * [PyTorch Classification](ml/pytorch/pytorch-classification/README.md)
       * [Multi-class Classification](ml/pytorch/pytorch-classification/multi-class-classification.md)
     * [torch.Tensor vs torch.tensor](ml/pytorch/torch.tensor-vs-torch.tensor.md)
