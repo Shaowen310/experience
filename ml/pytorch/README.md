@@ -14,9 +14,9 @@ torch.view(dim0, dim1, ...)
 
 `torch.randint(low=0, high, size)`
 
-_high_ \(int\) - exclusive
+_high_: int - exclusive
 
-_size_ \(int...\)
+_size_: tuple
 
 #### randperm
 

@@ -8,7 +8,7 @@
 
 `torch.tensor(data)` initialise a tensor with data
 
-`torch.empty(size)` initialise a tensor with size
+`torch.empty(size)` initialise a tensor with size, size is tuple
 
 Using `torch.tensor` and `torch.empty` are preferred.
 
