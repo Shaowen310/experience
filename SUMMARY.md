@@ -59,7 +59,7 @@
     * [PyTorch Classification](ml/pytorch/pytorch-classification/README.md)
       * [Multi-class Classification](ml/pytorch/pytorch-classification/multi-class-classification.md)
     * [PyTorch Evaluation](ml/pytorch/pytorch-evaluation.md)
-    * [LSTM](ml/pytorch/lstm.md)
+    * [PyTorch LSTM](ml/pytorch/lstm.md)
   * [Light GBM](ml/lightgbm.md)
   * [Pandas](ml/pandas.md)
   * [matplotlib guide](ml/matploblib.md)
