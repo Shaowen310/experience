@@ -1,4 +1,4 @@
-# PyTorch LSTM
+# LSTM
 
 ## Import
 

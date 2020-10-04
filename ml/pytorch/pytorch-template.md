@@ -4,6 +4,7 @@
 
 ```python
 device = torch.device("cuda")
+model.to(device)
 criterion = nn.CrossEntropyLoss()
 ```
 
