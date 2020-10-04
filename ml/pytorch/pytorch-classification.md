@@ -12,7 +12,7 @@ $$
 
 ### Loss functions
 
-`output = loss(input, target)`
+`loss = criterion(input, target)`
 
 `torch.nn.BCELoss(weight: Optional[torch.Tensor] = None, reduction: str = 'mean')`
 
@@ -53,7 +53,7 @@ $$
 
 ### Loss functions
 
-`output = loss(input, target)`
+`loss = criterion(input, target)`
 
 #### Negative Log-Likelihood Loss
 
