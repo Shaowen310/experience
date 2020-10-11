@@ -55,6 +55,14 @@ conda config --set auto_activate_base false
 conda config --set changeps1 False
 ```
 
+## Launching shell with Anaconda environment
+
+### PowerShell
+
+```text
+powershell.exe -ExecutionPolicy ByPass -NoExit -Command & 'conda\\shell\\condabin\\conda-hook.ps1' ; conda activate 'conda' ; cd ~ 
+```
+
 ## Using anaconda with Visual Studio Code
 
 ### Numpy DLL not found
