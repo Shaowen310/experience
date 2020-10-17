@@ -47,7 +47,7 @@
   * [Kubernetes](microservice/kubernetes.md)
   * [Microservice](microservice/microservice.md)
 * [ML](ml/README.md)
-  * [Anaconda](ml/anaconda.md)
+  * [Conda](ml/conda.md)
   * [Deep learning network architectures](ml/deep-learning-network-architectures/README.md)
     * [GAN](ml/deep-learning-network-architectures/gan.md)
     * [Autoencoder](ml/deep-learning-network-architectures/autoencoder.md)

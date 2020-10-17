@@ -1,4 +1,4 @@
-# Anaconda
+# Conda
 
 ## Installation
 
