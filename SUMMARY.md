@@ -96,6 +96,7 @@
     * [File Operations](programming-languages/powershell/file-operations.md)
     * [Execute a String as Command](programming-languages/powershell/execute-string-as-command.md)
   * [Python](programming-languages/python/README.md)
+    * [Python Logger](programming-languages/python/python-logger.md)
     * [Python Tricks](programming-languages/python/python-tricks.md)
     * [Python Reflection](programming-languages/python/python-reflection.md)
     * [Python Special Methods](programming-languages/python/python-special-methods.md)
