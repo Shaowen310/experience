@@ -12,7 +12,7 @@
         {
             "guid": "{adc1f953-8a62-41e7-a273-42f71f639fdb}",
             "hidden": false,
-            "name": "Anaconda",
+            "name": "Conda",
             "commandline": "powershell.exe -ExecutionPolicy ByPass -NoExit -Command & 'conda\\shell\\condabin\\conda-hook.ps1' ; conda activate 'conda'; cd ~ "
         },
         {
