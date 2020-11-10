@@ -13,7 +13,7 @@
             "guid": "{adc1f953-8a62-41e7-a273-42f71f639fdb}",
             "hidden": false,
             "name": "Conda",
-            "commandline": "powershell.exe -ExecutionPolicy ByPass -NoExit -Command & 'conda\\shell\\condabin\\conda-hook.ps1' ; conda activate 'conda'; cd ~ "
+            "commandline": "powershell.exe -ExecutionPolicy ByPass -NoExit -Command & 'conda\\shell\\condabin\\conda-hook.ps1' ; conda activate 'base'; cd ~ "
         },
         {
             "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
