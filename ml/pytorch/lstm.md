@@ -1,15 +1,14 @@
 # PyTorch LSTM
 
-## Import
-
-`torch.nn.lstm` 
-
 ## Model Arguments
+
+`lstm_layer = nn.LSTM(*args, **kwargs)`
 
 | Argument | Description |
 | :--- | :--- |
 | input\_size | n\_features |
 | hidden\_size | See training |
+| num\_layers | Number of recurrent layers |
 | batch\_first | See training |
 | dropout | dropout ratio |
 
