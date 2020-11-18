@@ -32,6 +32,8 @@
 
 ## With Embedding
 
+Sequence to sequence
+
 ```python
 class recurrent_net(nn.Module):
 
