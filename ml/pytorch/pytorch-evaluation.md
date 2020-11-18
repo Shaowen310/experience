@@ -1,6 +1,6 @@
 # PyTorch Evaluation
 
-## Training/evaluation environment
+## Training/Evaluation Environment
 
 `model.train()`
 
@@ -8,7 +8,7 @@
 
 changes the `forward()` behaviour of the module it is called upon eg, it changes the behaviour of dropout and batch normalisation layers.
 
-## Enable/disable gradient calculation
+## Enable/Disable Gradient Calculation
 
 `inputs.requires_grad_()`
 

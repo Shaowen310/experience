@@ -31,5 +31,7 @@
 | output | \(seq\_len, batch\_size, hidden\_size \* n\_directions\) |
 |   | if batch\_first==True, \(batch\_size, seq\_len, hidden\_size \* n\_directions\) |
 
+## With Embedding
+
 
 
