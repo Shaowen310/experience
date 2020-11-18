@@ -15,7 +15,7 @@
 
 ## Training
 
-`hidden_seq, (hidden_final, cell_final) = lstm(x_seq, (hidden_init, cell_init) )` 
+`hidden_seq, (hidden_final, cell_final) = lstm(x_seq, (hidden_init, cell_init))` 
 
 ### Arguments
 
