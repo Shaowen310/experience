@@ -46,9 +46,9 @@ class recurrent_net(nn.Module):
         
     def forward(self, word_seq, h_init, c_init ):
         
-        g_seq = self.layer1( word_seq )  
-        h_seq , (h_final,c_final) = self.layer2( g_seq , (h_init,c_init) )      
-        score_seq = self.layer3( h_seq )
+        g_seq = self.layer1(word_seq)  
+        h_seq, (h_final,c_final) = self.layer2(g_seq , (h_init,c_init))      
+        score_seq = self.layer3(h_seq)
         
         return score_seq, h_final, c_final
 ```
