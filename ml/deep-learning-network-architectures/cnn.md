@@ -1,5 +1,21 @@
 # Convolutional Neural Networks
 
+## Output size
+
+Input size: n
+
+Convolutional filter size: f
+
+Padding: p
+
+Stride: s
+
+Output:
+
+$$
+\lfloor \frac{n+2p-f}{s} + 1 \rfloor
+$$
+
 ## Architecture
 
 ### VGG16 2014
