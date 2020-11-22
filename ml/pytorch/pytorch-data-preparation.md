@@ -1,4 +1,4 @@
-# PyTorch Data Preparation
+# PyTorch Minibatch
 
 ## Minibatch
 
