@@ -10,9 +10,9 @@ changes the `forward()` behaviour of the module it is called upon eg, it changes
 
 ## Enable/Disable Gradient Calculation
 
-`inputs.requires_grad_()`
+`inputs = inputs.requires_grad_()`
 
-`output.detach()`
+`output = output.detach()`
 
 `with torch.no_grad():`
 

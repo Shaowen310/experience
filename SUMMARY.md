@@ -59,6 +59,7 @@
     * [PyTorch Template](ml/pytorch/pytorch-template.md)
     * [PyTorch Classification](ml/pytorch/pytorch-classification.md)
     * [PyTorch Evaluation](ml/pytorch/pytorch-evaluation.md)
+    * [PyTorch Convolution](ml/pytorch/pytorch-convolution.md)
     * [PyTorch LSTM](ml/pytorch/lstm.md)
   * [Light GBM](ml/lightgbm.md)
   * [Pandas](ml/pandas.md)
