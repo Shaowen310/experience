@@ -8,5 +8,19 @@ Example
 
 `m = nn.Conv2d(16, 33, (3, 5), stride=(2, 1), padding=(4, 2), dilation=(3, 1))`
 
+## Output size
 
+Input size: n
+
+Convolutional filter size: f
+
+Padding: p
+
+Stride: s
+
+Output:
+
+$$
+\lfloor \frac{n+2p-f}{s} + 1 \rfloor
+$$
 
