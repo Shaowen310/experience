@@ -60,6 +60,7 @@
     * [PyTorch Classification](ml/pytorch/pytorch-classification.md)
     * [PyTorch Autograd](ml/pytorch/pytorch-evaluation.md)
     * [PyTorch Convolution](ml/pytorch/pytorch-convolution.md)
+    * [PyTorch Embedding](ml/pytorch/pytorch-embedding.md)
     * [PyTorch LSTM](ml/pytorch/lstm.md)
   * [Light GBM](ml/lightgbm.md)
   * [Pandas](ml/pandas.md)
