@@ -55,6 +55,7 @@
   * [Numpy](ml/numpy.md)
   * [PyTorch](ml/pytorch/README.md)
     * [PyTorch Installation](ml/pytorch/pytorch-installation.md)
+    * [PyTorch Data Preparation](ml/pytorch/pytorch-data-preparation.md)
     * [PyTorch Template](ml/pytorch/pytorch-template.md)
     * [PyTorch Classification](ml/pytorch/pytorch-classification.md)
     * [PyTorch Evaluation](ml/pytorch/pytorch-evaluation.md)
