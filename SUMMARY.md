@@ -43,6 +43,7 @@
   * [sysctl](linux/sysctl.md)
   * [Linux Kernel Module \(LKM\)](linux/linux-kernel-module.md)
 * [Markdown](markdown.md)
+* [Microsoft Office](microsoft-office.md)
 * [Microservices](microservice/README.md)
   * [Kubernetes](microservice/kubernetes.md)
   * [Microservice](microservice/microservice.md)
