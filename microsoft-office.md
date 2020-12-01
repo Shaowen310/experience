@@ -9,5 +9,5 @@
 | Symbol | Code |
 | :--- | :--- |
 | $$\mathbb{R}$$ | `\doubleR` |
-| $$\arg \max_{\phi,T}$$ | `"arg"` then find "max" in "Limit and Log" tab |
+| $$\arg \underset{\phi,T}{\max}$$ | `"arg"` then find "max" in "Limit and Log" tab |
 
