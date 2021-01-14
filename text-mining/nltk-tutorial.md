@@ -23,6 +23,8 @@ from nltk.corpus.reader.plaintext import PlaintextCorpusReader
 
 corpus = PlaintextCorpusReader(...)
 
+raw = corpus.raw()
+
 paras = corpus.paras()
 
 sents = corpus.sents()
