@@ -1,0 +1,26 @@
+# NLTK Tutorial
+
+## Tokenizer
+
+### punkt
+
+This tokenizer divides a text into a list of sentences, by using an unsupervised algorithm to build a model for abbreviation words, collocations, and words that start sentences. It must be trained on a large collection of plaintext in the target language before it can be used.
+
+The NLTK data package includes a pre-trained Punkt tokenizer for English.
+
+## CorpusReader
+
+Available corpus readers see [link](https://www.nltk.org/howto/corpus.html).
+
+### PlaintextCorpusReader
+
+```python
+import nltk
+
+nltk.download('punkt')
+```
+
+## References
+
+1. [Code comment: nltk punkt](https://www.nltk.org/_modules/nltk/tokenize/punkt.html)
+
