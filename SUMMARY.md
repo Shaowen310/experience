@@ -6,6 +6,7 @@
 * [Database](database/README.md)
   * [Apache HBase](database/hbase.md)
   * [Postgres](database/postgres.md)
+  * [SPARQL](database/sparql.md)
   * [SQL](database/sql/README.md)
     * [SQL Parser](database/sql/sql-parser.md)
     * [SQL Variations](database/sql/sql-variations.md)
