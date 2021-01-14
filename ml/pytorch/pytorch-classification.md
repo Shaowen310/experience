@@ -6,6 +6,8 @@
 
 `torch.nn.Sigmoid()`
 
+`torch.nn.functional.sigmoid(x)`
+
 $$
 \mathrm{Sigmoid}(x) = \frac{1}{1+\mathrm{exp}(-x)}
 $$
