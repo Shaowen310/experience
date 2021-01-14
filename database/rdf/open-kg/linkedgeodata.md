@@ -8,7 +8,7 @@ Static \(at a certain date\) [link](http://linkedgeodata.org/sparql)
 
 ### RDB view of RDF
 
-#### RDB View Tables
+#### RDB view tables
 
 | View Table | Description |
 | :--- | :--- |
@@ -18,9 +18,11 @@ Static \(at a certain date\) [link](http://linkedgeodata.org/sparql)
 | lgd\_map\_resource\_kv \(k, v, property, object\) | Similar to above, except that the value is also taken into account. |
 | lgd\_map\_property \(k, property\) | Relates keys to corresponding properties. |
 
-#### RDB Columns to RDF
+#### RDB columns to RDF ontology
 
 [Code link](https://github.com/GeoKnow/LinkedGeoData/blob/master/linkedgeodata-core/src/main/resources/org/aksw/linkedgeodata/sql/Mappings.sql)
+
+Ontologies correspond to "relationships". 
 
 ### SPARQL-to-SQL
 
