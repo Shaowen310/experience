@@ -1,5 +1,9 @@
 # LinkedGeoData
 
+## SPARQL Endpoints
+
+Static \(at a certain date\) [link](http://linkedgeodata.org/sparql)
+
 ## RDB RDF Mappings
 
 ### RDB view of RDF
