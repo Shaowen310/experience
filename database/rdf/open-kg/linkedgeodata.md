@@ -22,7 +22,9 @@ Static \(at a certain date\) [link](http://linkedgeodata.org/sparql)
 
 [Code link](https://github.com/GeoKnow/LinkedGeoData/blob/master/linkedgeodata-core/src/main/resources/org/aksw/linkedgeodata/sql/Mappings.sql)
 
-Ontologies correspond to "relationships". 
+Ontology \[lgdo\] correspond to "relationship". 
+
+Triplify \[lgdr\] corresponds to "entity".
 
 ### SPARQL-to-SQL
 
