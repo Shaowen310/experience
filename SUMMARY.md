@@ -11,6 +11,8 @@
       * [SQL Parser](database/rdb/sql/sql-parser.md)
       * [SQL Variations](database/rdb/sql/sql-variations.md)
   * [RDF](database/rdf/README.md)
+    * [Open KG](database/rdf/open-kg/README.md)
+      * [LinkedGeoData](database/rdf/open-kg/linkedgeodata.md)
     * [SPARQL](database/rdf/sparql/README.md)
       * [SPARQL Basics](database/rdf/sparql/sparql-basics.md)
 * [Distributed Systems](distributed-systems/README.md)
