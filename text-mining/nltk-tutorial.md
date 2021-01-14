@@ -18,7 +18,35 @@ Available corpus readers see [link](https://www.nltk.org/howto/corpus.html).
 import nltk
 
 nltk.download('punkt')
+
+from nltk.corpus.reader.plaintext import PlaintextCorpusReader
+
+corpus = PlaintextCorpusReader(...)
+
+paras = corpus.paras()
+
+sents = corpus.sents()
+
+words = corpus.words()
+
 ```
+
+## Analysis
+
+```python
+word_freq_dist = nltk.FreqDist(corpus.words())
+
+# topk
+word_freq_dist.most_common(10)
+
+# Frequency for a word
+word_freq_dist.get('data')
+
+```
+
+
+
+
 
 ## References
 
