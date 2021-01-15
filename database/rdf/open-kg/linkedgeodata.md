@@ -6,13 +6,17 @@
 
 Comments
 
+Setup environment via Docker, OS image Ubuntu 16.04
+
+
+
 Install through Debian package directly failed because of missing dependencies
 
 Dependencies
 
 linkedgeodata-nominatim-v2.5.1 [link](http://cstadler.aksw.org/repos/apt/pool/main/l/linkedgeodata-nominatim-v2.5.1/)
 
-postgresql-server-dev-9.5
+`sudo apt install postgresql-server-dev-9.5 postgresql-9.5-postgis-2.2`
 
 Install from source
 
