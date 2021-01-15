@@ -6,12 +6,13 @@
 
 Comments
 
-Install through Debian package failed for the following reason
+Install through Debian package directly failed because of missing dependencies
 
-```text
-The following packages have unmet dependencies:
- linkedgeodata : Depends: linkedgeodata-nominatim-v2.5.1 but it is not going to be installed
-```
+Dependencies
+
+linkedgeodata-nominatim-v2.5.1 [link](http://cstadler.aksw.org/repos/apt/pool/main/l/linkedgeodata-nominatim-v2.5.1/)
+
+postgresql-server-dev-9.5
 
 Install from source
 
@@ -51,9 +52,9 @@ Triplify \[lgdr:\] corresponds to "entity".
 
 Project [Github link](https://github.com/SmartDataAnalytics/Sparqlify)
 
-## Data scope
+## Data Scope
 
-Global?
+Global locations from OpenStreetMap.
 
 ## References
 
