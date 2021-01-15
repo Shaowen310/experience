@@ -1,5 +1,26 @@
 # LinkedGeoData
 
+## Installation
+
+[Link](https://github.com/GeoKnow/LinkedGeoData)
+
+Comments
+
+Install through Debian package failed for the following reason
+
+```text
+The following packages have unmet dependencies:
+ linkedgeodata : Depends: linkedgeodata-nominatim-v2.5.1 but it is not going to be installed
+```
+
+Install from source
+
+
+
+## Data Download
+
+[Link](https://hobbitdata.informatik.uni-leipzig.de/LinkedGeoData/downloads.linkedgeodata.org/releases/)
+
 ## SPARQL Endpoints
 
 Static \(at a certain date\) [link](http://linkedgeodata.org/sparql)
@@ -30,11 +51,8 @@ Triplify \[lgdr:\] corresponds to "entity".
 
 Project [Github link](https://github.com/SmartDataAnalytics/Sparqlify)
 
-## Data Download
-
-[Link](https://hobbitdata.informatik.uni-leipzig.de/LinkedGeoData/downloads.linkedgeodata.org/releases/)
-
 ## References
 
 1. [LinkedGeoData official website ](http://linkedgeodata.org/)
+2. [CSDN: 知识图谱---地理信息数据集](https://blog.csdn.net/github_37002236/article/details/81908446)
 
