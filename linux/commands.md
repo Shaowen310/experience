@@ -1,6 +1,6 @@
 # Commands
 
-## Create a text file
+## Create an empty file
 
 ```text
 touch sample.txt
