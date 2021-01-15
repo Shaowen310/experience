@@ -2,25 +2,7 @@
 
 ## Installation
 
-[Link](https://github.com/GeoKnow/LinkedGeoData)
-
-Comments
-
-Setup environment via Docker, OS image Ubuntu 16.04
-
-
-
-Install through Debian package directly failed because of missing dependencies
-
-Dependencies
-
-linkedgeodata-nominatim-v2.5.1 [link](http://cstadler.aksw.org/repos/apt/pool/main/l/linkedgeodata-nominatim-v2.5.1/)
-
-`sudo apt install postgresql-server-dev-9.5 postgresql-9.5-postgis-2.2`
-
-Install from source
-
-
+Use docker see [link](https://joernhees.de/blog/2015/11/23/setting-up-a-linked-data-mirror-from-rdf-dumps-dbpedia-2015-04-freebase-wikidata-linkedgeodata-with-virtuoso-7-2-1-and-docker-optional/)
 
 ## Data Download
 
@@ -64,4 +46,5 @@ Global locations from OpenStreetMap.
 
 1. [LinkedGeoData official website ](http://linkedgeodata.org/)
 2. [CSDN: 知识图谱---地理信息数据集](https://blog.csdn.net/github_37002236/article/details/81908446)
+3. [Jörn's Blog: Setting up a Linked Data mirror from RDF dumps](https://joernhees.de/blog/2015/11/23/setting-up-a-linked-data-mirror-from-rdf-dumps-dbpedia-2015-04-freebase-wikidata-linkedgeodata-with-virtuoso-7-2-1-and-docker-optional/)
 
