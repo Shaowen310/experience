@@ -47,6 +47,7 @@
   * [Huge pages](linux/hugepage.md)
   * [Linux check GPU](linux/linux-check-gpu.md)
   * [sysctl](linux/sysctl.md)
+  * [Commands](linux/commands.md)
   * [Linux Kernel Module \(LKM\)](linux/linux-kernel-module.md)
 * [Markdown](markdown.md)
 * [Microsoft Office](microsoft-office.md)
