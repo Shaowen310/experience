@@ -12,6 +12,10 @@ wget -r -nc -nH --cut-dirs=1 -np -l1 -A '*.nt.bz2' -A '*.owl' -R '*unredirected*
 
 Use docker see [link](https://joernhees.de/blog/2015/11/23/setting-up-a-linked-data-mirror-from-rdf-dumps-dbpedia-2015-04-freebase-wikidata-linkedgeodata-with-virtuoso-7-2-1-and-docker-optional/)
 
+## Data Description
+
+Global locations from OpenStreetMap. Latest update on 2015 Nov 02.
+
 ## SPARQL Endpoints
 
 Static \(at a certain date\) [link](http://linkedgeodata.org/sparql)
@@ -41,10 +45,6 @@ Triplify \[lgdr:\] corresponds to "entity".
 ### SPARQL-to-SQL
 
 Project [Github link](https://github.com/SmartDataAnalytics/Sparqlify)
-
-## Data Scope
-
-Global locations from OpenStreetMap.
 
 ## References
 
