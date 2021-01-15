@@ -27,6 +27,7 @@
   * [Docker cp](docker/docker-cp.md)
   * [Docker logs](docker/docker-logs.md)
   * [Docker system](docker/docker-system.md)
+  * [Docker WSL2 Integration](docker/docker-wsl2-integration.md)
   * [docker-compose](docker/docker-compose.md)
 * [IDE](ide/README.md)
   * [Visual Studio Code](ide/visual-studio-code.md)
