@@ -144,4 +144,5 @@
     * [Spring data JPA](web/spring-framework/spring-data-jpa.md)
 * [Windows](windows/README.md)
   * [Windows Terminal](windows/windows-terminal.md)
+  * [WSL2](windows/wsl2.md)
 
