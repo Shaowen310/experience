@@ -2,5 +2,5 @@
 
 ## File System
 
-Type `\\wsl$` in the File Explorer or `cd \\wsl$` in PowerShell.
+Type `\\wsl$` in the File Explorer.
 
