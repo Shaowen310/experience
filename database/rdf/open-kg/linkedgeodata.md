@@ -1,12 +1,16 @@
 # LinkedGeoData
 
-## Installation
-
-Use docker see [link](https://joernhees.de/blog/2015/11/23/setting-up-a-linked-data-mirror-from-rdf-dumps-dbpedia-2015-04-freebase-wikidata-linkedgeodata-with-virtuoso-7-2-1-and-docker-optional/)
-
 ## Data Download
 
 [Link](https://hobbitdata.informatik.uni-leipzig.de/LinkedGeoData/downloads.linkedgeodata.org/releases/)
+
+```text
+wget -r -nc -nH --cut-dirs=1 -np -l1 -A '*.nt.bz2' -A '*.owl' -R '*unredirected*' https://hobbitdata.informatik.uni-leipzig.de/LinkedGeoData/downloads.linkedgeodata.org/releases/2015-11-02/
+```
+
+## Local Loading
+
+Use docker see [link](https://joernhees.de/blog/2015/11/23/setting-up-a-linked-data-mirror-from-rdf-dumps-dbpedia-2015-04-freebase-wikidata-linkedgeodata-with-virtuoso-7-2-1-and-docker-optional/)
 
 ## SPARQL Endpoints
 
