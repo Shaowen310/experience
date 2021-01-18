@@ -15,18 +15,36 @@ Global locations from OpenStreetMap. Latest update on 2015 Nov 02.
 ### Prefix
 
 ```text
-Prefix lgdr:<http://linkedgeodata.org/triplify/>
-Prefix lgdo:<http://linkedgeodata.org/ontology/>
-Prefix geom:<http://geovocab.org/geometry#>
-Prefix ogc:<http://www.opengis.net/ont/geosparql#>
-Prefix owl:<http://www.w3.org/2002/07/owl#>
-prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-Prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+PREFIX gadm-o: <http://linkedgeodata.org/ld/gadm2/ontology/>
+PREFIX gadm-r: <http://linkedgeodata.org/ld/gadm2/resource/>
+PREFIX lgd-geom: <http://linkedgeodata.org/geometry/>
+PREFIX lgdo: <http://linkedgeodata.org/ontology/>
+PREFIX lgdr:<http://linkedgeodata.org/triplify/>
+PREFIX meta: <http://linkedgeodata.org/meta/>
+PREFIX meta-o: <http://linkedgeodata.org/ld/meta/ontology/>
+
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+PREFIX dcterms: <http://purl.org/dc/terms/>
+
+PREFIX ogc: <http://www.opengis.net/ont/geosparql#>
+
+PREFIX geom: <http://geovocab.org/geometry#>
+PREFIX spatial: <http://geovocab.org/spatial#>
+
+PREFIX bif: <http://www.openlinksw.com/schemas/bif#>
 ```
+
+`lgdo` for ontology.
 
 `lgdr` for place entity.
 
-`lgdo` for ontology.
+`meta` indicates it is a `Node` or `Way` .
 
 ### Known Relationships
 
@@ -35,6 +53,20 @@ Prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#>
 The type of a POI
 
 e.g. `<lgdr:node3315834991 rdf:type lgdo:Zoo>`
+
+`<lgdr:node3315834991 rdf:type lgdo:TourismThing>`
+
+`<lgdr:node3315834991 rdf:type meta:Node>`
+
+`<lgdr:node3315834991 rdf:type spatial:Feature>`
+
+The name of a POI
+
+e.g. `<lgdr:node3315834991 rdfs:label "Snake farm">` 
+
+The longitude and latitude of a POI
+
+e.g. `<lgdr:node3315834991 geo:long 99.9458>` `<lgdr:node3315834991 geo:lat 9.43117>`
 
 
 
