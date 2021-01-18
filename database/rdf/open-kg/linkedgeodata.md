@@ -48,8 +48,6 @@ PREFIX bif: <http://www.openlinksw.com/schemas/bif#>
 
 ### Known Relationships
 
-#### Type
-
 The type of a POI
 
 e.g. `<lgdr:node3315834991 rdf:type lgdo:Zoo>`
@@ -67,6 +65,10 @@ e.g. `<lgdr:node3315834991 rdfs:label "Snake farm">`
 The longitude and latitude of a POI
 
 e.g. `<lgdr:node3315834991 geo:long 99.9458>` `<lgdr:node3315834991 geo:lat 9.43117>`
+
+The type of a region
+
+e.g. `<lgdr:way108855775 rdf:type meta:Way>`
 
 
 
