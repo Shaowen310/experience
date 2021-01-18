@@ -36,6 +36,8 @@ PREFIX ogc: <http://www.opengis.net/ont/geosparql#>
 
 PREFIX geom: <http://geovocab.org/geometry#>
 PREFIX spatial: <http://geovocab.org/spatial#>
+
+PREFIX bif: <http://www.openlinksw.com/schemas/bif#>
 ```
 
 `lgdo` for ontology.
