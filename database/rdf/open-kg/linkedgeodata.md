@@ -36,17 +36,15 @@ PREFIX ogc: <http://www.opengis.net/ont/geosparql#>
 
 PREFIX geom: <http://geovocab.org/geometry#>
 PREFIX spatial: <http://geovocab.org/spatial#>
-
-PREFIX bif: <http://www.openlinksw.com/schemas/bif#>
 ```
 
 `lgdo` for ontology.
 
 `lgdr` for place entity.
 
-`meta` indicates it is a `Node` or `Way` .
+`meta` indicates it is a `Node` \(place\) or `Way` \(region\).
 
-### Known Relationships
+### Examples of Triplets
 
 The type of a POI
 
@@ -66,11 +64,36 @@ The longitude and latitude of a POI
 
 e.g. `<lgdr:node3315834991 geo:long 99.9458>` `<lgdr:node3315834991 geo:lat 9.43117>`
 
+The postal code of a POI
+
+e.g. `<lgdr:node330310968 lgdo:postalCode "PL20 6SP">`
+
+Note: `<lgdr:node330310968 rdfs:label "Cherrybrook Hotel">`
+
 The type of a region
 
 e.g. `<lgdr:way108855775 rdf:type meta:Way>`
 
+Note: `<lgdr:way108855775 rdfs:label "Whangarata Zoo Park">`
 
+The geometry of a region
+
+e.g. \`&lt;
+
+Note: the query is
+
+```text
+PREFIX meta: <http://linkedgeodata.org/meta/>
+PREFIX lgdo: <http://linkedgeodata.org/ontology/>
+PREFIX geom: <http://geovocab.org/geometry#>
+PREFIX ogc: <http://www.opengis.net/ont/geosparql#>
+SELECT * {
+  lgdr:way108855775
+    geom:geometry [
+      ogc:asWKT ?w
+    ]
+}
+```
 
 ### OSM Queries
 
