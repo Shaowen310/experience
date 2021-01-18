@@ -129,6 +129,10 @@ Triplify \[lgdr:\] corresponds to "entity".
 
 Project [Github link](https://github.com/SmartDataAnalytics/Sparqlify)
 
+## Note
+
+For latest data, [download](https://download.geofabrik.de/) from OpenStreetMap.
+
 ## References
 
 1. [LinkedGeoData official website ](http://linkedgeodata.org/)
