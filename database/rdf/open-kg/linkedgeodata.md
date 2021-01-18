@@ -99,6 +99,8 @@ SELECT * {
 
 [link](http://linkedgeodata.org/OSM)
 
+Note: `bif:st_intersects` needs software support.
+
 ## SPARQL Endpoints
 
 Static \(at a certain date\) [link](http://linkedgeodata.org/sparql)
@@ -131,7 +133,7 @@ Project [Github link](https://github.com/SmartDataAnalytics/Sparqlify)
 
 ## Note
 
-For latest data, [download](https://download.geofabrik.de/) from OpenStreetMap.
+For latest data, [download](https://download.geofabrik.de/) from OpenStreetMap. However, it is not in KG format.
 
 ## References
 
