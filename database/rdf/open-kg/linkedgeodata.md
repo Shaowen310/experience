@@ -78,7 +78,7 @@ Note: `<lgdr:way108855775 rdfs:label "Whangarata Zoo Park">`
 
 The geometry of a region
 
-e.g. \`&lt;
+e.g. `<lgd-geom:way108855775 ogc:asWKT  "LINESTRING(174.9863815 -37.2555661,174.987351 -37.2548129,174.9873908 -37.2547205,174.987766 -37.2538185,174.9871252 -37.2535789,174.9870256 -37.2535841,174.9867567 -37.2535789,174.986604 -37.253526,174.9856711 -37.2547627,174.9863815 -37.2555661)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>>`
 
 Note: the query is
 
@@ -88,10 +88,7 @@ PREFIX lgdo: <http://linkedgeodata.org/ontology/>
 PREFIX geom: <http://geovocab.org/geometry#>
 PREFIX ogc: <http://www.opengis.net/ont/geosparql#>
 SELECT * {
-  lgdr:way108855775
-    geom:geometry [
-      ogc:asWKT ?w
-    ]
+  lgdr:way108855775 geom:geometry [ogc:asWKT ?w]
 }
 ```
 
