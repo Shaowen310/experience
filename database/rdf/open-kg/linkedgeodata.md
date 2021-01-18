@@ -8,17 +8,11 @@
 wget -r -nc -nH --cut-dirs=1 -np -l1 -A '*.nt.bz2' -A '*.owl' -R '*unredirected*' https://hobbitdata.informatik.uni-leipzig.de/LinkedGeoData/downloads.linkedgeodata.org/releases/2015-11-02/
 ```
 
-## Local Loading
-
-Use docker see [link](https://joernhees.de/blog/2015/11/23/setting-up-a-linked-data-mirror-from-rdf-dumps-dbpedia-2015-04-freebase-wikidata-linkedgeodata-with-virtuoso-7-2-1-and-docker-optional/)
-
-Docker image [link](https://hub.docker.com/r/joernhees/virtuoso/)
-
 ## Data Description
 
 Global locations from OpenStreetMap. Latest update on 2015 Nov 02.
 
-## Prefix
+### Prefix
 
 ```text
 Prefix lgdr:<http://linkedgeodata.org/triplify/>
@@ -26,11 +20,25 @@ Prefix lgdo:<http://linkedgeodata.org/ontology/>
 Prefix geom:<http://geovocab.org/geometry#>
 Prefix ogc:<http://www.opengis.net/ont/geosparql#>
 Prefix owl:<http://www.w3.org/2002/07/owl#>
+prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 Prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#>
-
 ```
 
-## OSM Queries
+`lgdr` for place entity.
+
+`lgdo` for ontology.
+
+### Known Relationships
+
+#### Type
+
+The type of a POI
+
+e.g. `<lgdr:node3315834991 rdf:type lgdo:Zoo>`
+
+
+
+### OSM Queries
 
 [link](http://linkedgeodata.org/OSM)
 
