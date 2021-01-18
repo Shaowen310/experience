@@ -135,6 +135,8 @@ Project [Github link](https://github.com/SmartDataAnalytics/Sparqlify)
 
 For latest data, [download](https://download.geofabrik.de/) from OpenStreetMap. However, it is not in KG format.
 
+The [paper](https://link.springer.com/chapter/10.1007/978-3-642-04930-9_46) which describes how LinkedGeoData is derived.
+
 ## References
 
 1. [LinkedGeoData official website ](http://linkedgeodata.org/)
