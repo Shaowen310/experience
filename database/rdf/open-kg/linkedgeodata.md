@@ -18,6 +18,22 @@ Docker image [link](https://hub.docker.com/r/joernhees/virtuoso/)
 
 Global locations from OpenStreetMap. Latest update on 2015 Nov 02.
 
+## Prefix
+
+```text
+Prefix lgdr:<http://linkedgeodata.org/triplify/>
+Prefix lgdo:<http://linkedgeodata.org/ontology/>
+Prefix geom:<http://geovocab.org/geometry#>
+Prefix ogc:<http://www.opengis.net/ont/geosparql#>
+Prefix owl:<http://www.w3.org/2002/07/owl#>
+Prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+
+```
+
+## OSM Queries
+
+[link](http://linkedgeodata.org/OSM)
+
 ## SPARQL Endpoints
 
 Static \(at a certain date\) [link](http://linkedgeodata.org/sparql)
