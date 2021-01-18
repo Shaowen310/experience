@@ -12,6 +12,8 @@ wget -r -nc -nH --cut-dirs=1 -np -l1 -A '*.nt.bz2' -A '*.owl' -R '*unredirected*
 
 Use docker see [link](https://joernhees.de/blog/2015/11/23/setting-up-a-linked-data-mirror-from-rdf-dumps-dbpedia-2015-04-freebase-wikidata-linkedgeodata-with-virtuoso-7-2-1-and-docker-optional/)
 
+Docker image [link](https://hub.docker.com/r/joernhees/virtuoso/)
+
 ## Data Description
 
 Global locations from OpenStreetMap. Latest update on 2015 Nov 02.
