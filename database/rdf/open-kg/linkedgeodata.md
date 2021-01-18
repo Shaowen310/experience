@@ -95,6 +95,12 @@ SELECT * {
 }
 ```
 
+Link to other KGs
+
+`owl:sameAs` relationship
+
+e.g. `<lgdr:node25074246 owl:sameAs http://dbpedia.org/resource/Grey_High_School>`
+
 ### OSM Queries
 
 [link](http://linkedgeodata.org/OSM)
