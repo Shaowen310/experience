@@ -38,6 +38,7 @@ PREFIX geom: <http://geovocab.org/geometry#>
 PREFIX spatial: <http://geovocab.org/spatial#>
 
 PREFIX bif: <http://www.openlinksw.com/schemas/bif#>
+# For jena, PREFIX bif: <bif:>
 ```
 
 `lgdo` for ontology.
