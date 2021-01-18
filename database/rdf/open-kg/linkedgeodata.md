@@ -107,7 +107,7 @@ e.g. `<lgdr:node25074246 owl:sameAs http://dbpedia.org/resource/Grey_High_School
 
 Note: `bif:st_intersects` needs software support.
 
-## SPARQL Endpoints
+## SPARQL Endpoint
 
 Static \(at a certain date\) [link](http://linkedgeodata.org/sparql)
 
