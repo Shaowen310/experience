@@ -65,7 +65,7 @@
     * [GAN](ml/deep-learning-network-architectures/gan.md)
     * [Transformer](ml/deep-learning-network-architectures/transformer.md)
   * [pykeen for Knowledge Graph](ml/pykeen-for-knowledge-graph.md)
-  * [Light GBM](ml/lightgbm.md)
+  * [LightGBM](ml/lightgbm.md)
   * [matplotlib](ml/matploblib.md)
   * [Numpy](ml/numpy.md)
   * [Pandas](ml/pandas.md)
