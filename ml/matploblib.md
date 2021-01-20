@@ -1,4 +1,4 @@
-# matplotlib guide
+# matplotlib
 
 ## Import
 
