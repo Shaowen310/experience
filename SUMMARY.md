@@ -95,7 +95,6 @@
   * [OpenVPN](network/openvpn.md)
   * [ip](network/ip.md)
   * [DNS configuration](network/dns.md)
-* [Untitled](untitled.md)
 * [Open Source Licenses](open-source-lic.md)
 * [Programming Languages](programming-languages/README.md)
   * [C](programming-languages/c/README.md)
