@@ -13,3 +13,5 @@ Use docker see [link](https://joernhees.de/blog/2015/11/23/setting-up-a-linked-d
 
 Docker image [link](https://hub.docker.com/r/joernhees/virtuoso/)
 
+## Standard Prefix
+
