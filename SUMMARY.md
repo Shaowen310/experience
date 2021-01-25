@@ -136,7 +136,7 @@
   * [Pipe to/from the clipboard](utils/pipe-to-from-clipboard.md)
   * [Curl](utils/curl.md)
   * [Task Schedulers](utils/task-scheduler.md)
-  * [SSH](utils/ssh.md)
+  * [SSH \(OpenSSH\)](utils/ssh.md)
   * [FTP Server](utils/ftpserver.md)
 * [Web](web/README.md)
   * [Build a simple website](web/build-simple-website.md)
