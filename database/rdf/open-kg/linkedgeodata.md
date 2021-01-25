@@ -47,7 +47,7 @@ PREFIX bif: <http://www.openlinksw.com/schemas/bif#>
 
 `meta` indicates it is a `Node` \(place\) or `Way` \(region\).
 
-### Examples of Triplets
+### Triplet Examples
 
 The type of a POI
 

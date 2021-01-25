@@ -12,6 +12,22 @@ wget -r -nc -nH --cut-dirs=1 -np -l1 -A '*.nt.gz' -A '*.owl' -R '*unredirected*'
 
 A general knowledge graph combines entities from Wikidata and ontology of classes and relations from schema.org . Latest update on 2020 Feb 24.
 
+### Prefix
+
+```text
+PREFIX yago: <http://yago-knowledge.org/resource/>
+
+PREFIX schema: <http://schema.org/>
+```
+
+### Triplet Examples
+
+#### Schema.org
+
+foundingDate
+
+e.g. `yago:Singapore schema:foundingDate "1965-08-09"^^xsd:date`
+
 ## SPARQL Endpoint
 
 [link](https://yago-knowledge.org/sparql)

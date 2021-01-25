@@ -1,4 +1,4 @@
-# LightGBM
+# Light GBM
 
 ## Introduction
 
