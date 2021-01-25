@@ -2,17 +2,31 @@
 
 ## Start SSH Server
 
-### Enable
+### Linux
+
+Enable
 
 `sudo systemctl enable ssh.service`
 
-### Start
+Start
 
 `sudo service ssh start`
 
-### Restart
+Restart
 
 `sudo service ssh restart`
+
+### Windows
+
+#### WSL
+
+```bash
+# To remove old config file and to enable GSSAPIAuthentication
+sudo apt remove openssh-server
+sudo apt install openssh-server
+
+sudo service ssh --full-restart
+```
 
 ## SSH Configuration
 
@@ -67,18 +81,6 @@ Firefox setting
 ![](../.gitbook/assets/image.png)
 
 ![](../.gitbook/assets/image%20%281%29.png)
-
-## OpenSSH on Windows
-
-### WSL
-
-```bash
-# To remove old config file and to enable GSSAPIAuthentication
-sudo apt remove openssh-server
-sudo apt install openssh-server
-
-sudo service ssh --full-restart
-```
 
 ## References
 
