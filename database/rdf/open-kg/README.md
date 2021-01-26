@@ -4,8 +4,9 @@
 
 | Dataset | Source | Latest Update Date |
 | :--- | :--- | :--- |
-| LinkedGeoData |  |  |
-| YAGO |  |  |
+| LinkedGeoData | OpenStreetMap, DBPedia | 2015 |
+| GeoNames |  |  |
+| YAGO | DBPedia, Schema.org | 2020 |
 
 ## Local Loading
 
