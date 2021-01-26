@@ -11,7 +11,7 @@
       * [SQL Parser](database/rdb/sql/sql-parser.md)
       * [SQL Variations](database/rdb/sql/sql-variations.md)
   * [RDF](database/rdf/README.md)
-    * [Open KG](database/rdf/open-kg/README.md)
+    * [Open Datasets](database/rdf/open-kg/README.md)
       * [LinkedGeoData](database/rdf/open-kg/linkedgeodata.md)
       * [YAGO](database/rdf/open-kg/yago.md)
     * [SPARQL](database/rdf/sparql/README.md)

@@ -1,12 +1,17 @@
-# Open KG
+# Open Datasets
 
 ## Summary
 
 | Dataset | Source | Latest Update Date |
 | :--- | :--- | :--- |
 | LinkedGeoData | OpenStreetMap, DBPedia | 2015 |
-| GeoNames |  |  |
 | YAGO | DBPedia, Schema.org | 2020 |
+
+Relational databases \(can be converted to knowledge graph\)
+
+| Dataset | Source | Latest Update Date |
+| :--- | :--- | :--- |
+| GeoNames | Government open data platforms |  |
 
 ## Local Loading
 
