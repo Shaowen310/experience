@@ -4,7 +4,8 @@
 
 | Dataset | Source | Latest Update Date |
 | :--- | :--- | :--- |
-| LinkedGeoData | OpenStreetMap, DBPedia | 2015 |
+| LinkedGeoData | DBPedia, OpenStreetMap | 2015 |
+| GeoWordNet | GeoNames, WordNet | 2011 \(Not accessible\) |
 | YAGO | DBPedia, Schema.org | 2020 |
 
 Relational databases \(can be converted to knowledge graph\)
