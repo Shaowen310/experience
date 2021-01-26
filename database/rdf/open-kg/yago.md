@@ -22,11 +22,29 @@ PREFIX schema: <http://schema.org/>
 
 ### Triplet Examples
 
-#### Schema.org
+#### Spatial/Geographic
 
-foundingDate
+The longitude and latitude of a POI
+
+e.g. `yago:Singapore schema:geo geo:1.3000026,103.8002076`
+
+#### History
+
+Founding date
 
 e.g. `yago:Singapore schema:foundingDate "1965-08-09"^^xsd:date`
+
+#### Politics/Organization
+
+Member of
+
+e.g. `yago:Singapore schema:memberOf yago:United_Nations`
+
+#### Link to other KGs
+
+`owl:sameAs` relationship
+
+e.g. `yago:Singapore owl:sameAs dbpedia:Singapore`
 
 ## SPARQL Endpoint
 
