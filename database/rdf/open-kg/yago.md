@@ -24,7 +24,7 @@ PREFIX schema: <http://schema.org/>
 
 #### Spatial/Geographic
 
-The longitude and latitude of a POI
+The longitude and latitude of a place
 
 e.g. `yago:Singapore schema:geo geo:1.3000026,103.8002076`
 
