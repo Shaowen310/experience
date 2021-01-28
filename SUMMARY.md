@@ -41,6 +41,7 @@
 * [Linux](linux/README.md)
   * [PATH](linux/path.md)
   * [Change default python version](linux/change-default-python-version.md)
+  * [User Management](linux/user-management.md)
   * [Linux hyper-v guest](linux/linux-hyper-v.md)
   * [CMDUI enhancement tools](linux/cmdui-enhancement-tools.md)
   * [Alternate GUI for Ubuntu Server](linux/ubuntu-alternate-gui.md)
