@@ -1,8 +1,14 @@
 # Disk Management
 
+## Check Volume Group
+
+```text
+sudo vgdisplay
+```
+
 ## Create Logical Volume
 
 ```text
-lvcreate -L +50G --name datauser ubuntu-vg
+sudo lvcreate -L +50G --name datauser ubuntu-vg
 ```
 
