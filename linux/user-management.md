@@ -1,6 +1,6 @@
 # User Management
 
-## Create User with Specific Home Directory
+## Create a User with Specific Home Directory
 
 ```text
 sudo useradd -m -d /home/username username
@@ -10,5 +10,11 @@ sudo useradd -m -d /home/username username
 
 ```text
 sudo passwd username
+```
+
+## Remove a User
+
+```text
+sudo userdel username
 ```
 
