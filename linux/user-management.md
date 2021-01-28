@@ -3,7 +3,7 @@
 ## Create a User with Specific Home Directory
 
 ```text
-sudo useradd -m -d /home/username username
+sudo useradd -d /home/username username
 ```
 
 ## Update Password
