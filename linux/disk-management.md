@@ -24,3 +24,7 @@ sudo mkfs -t ext4 /dev/ubuntu-vg/datauser
 e2label /dev/ubuntu-vg/datauser datauser
 ```
 
+## References
+
+1. [https://linuxhint.com/lvm\_home\_directories/](https://linuxhint.com/lvm_home_directories/)
+
