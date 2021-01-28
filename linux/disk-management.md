@@ -1,5 +1,7 @@
 # Disk Management
 
+## Physical Volume
+
 ## Volume Group
 
 ### Check
@@ -11,7 +13,7 @@ sudo vgdisplay
 ### Create
 
 ```text
-sudo vgcreate new_vol_group /dev/sda1 /dev/sdb1 /dev/sdc1
+sudo vgcreate vg-name /dev/sda1 /dev/sdb1 /dev/sdc1
 ```
 
 ## Logical Volume
