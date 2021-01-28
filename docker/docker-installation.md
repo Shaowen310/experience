@@ -53,7 +53,12 @@ docker run hello-world
 
 [https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/)
 
+## Docker for Non-root User
+
+[https://www.thegeekdiary.com/run-docker-as-a-non-root-user/](https://www.thegeekdiary.com/run-docker-as-a-non-root-user/)
+
 ## References
 
 1. [Offical Document: Get Docker Engine - Community for Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+2. [https://www.thegeekdiary.com/run-docker-as-a-non-root-user/](https://www.thegeekdiary.com/run-docker-as-a-non-root-user/)
 
