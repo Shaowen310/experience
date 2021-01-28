@@ -18,3 +18,9 @@ sudo lvcreate -L +50G --name datauser ubuntu-vg
 sudo mkfs -t ext4 /dev/ubuntu-vg/datauser
 ```
 
+## Add a Filesystem Label
+
+```text
+e2label /dev/ubuntu-vg/datauser datauser
+```
+
