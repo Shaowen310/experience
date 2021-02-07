@@ -2,7 +2,7 @@
 
 ## Sample Configuration
 
-`logging_util.py`
+`loggingutil.py`
 
 ### Configure by code
 
