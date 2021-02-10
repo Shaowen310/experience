@@ -11,7 +11,12 @@
 
 KaTeX
 
-`begin{aligned}`
+```text
+\begin{aligned} 
+2x - 5y &=  8 \\ 
+3x + 9y &=  -12
+\end{aligned}
+```
 
  
 
