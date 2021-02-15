@@ -11,7 +11,9 @@
 `launch.json`
 
 ```text
- "cwd": "${workspaceFolder}",
+ "cwd": "${workspaceFolder}", # run from workspace folder
+ or
+ "cwd": "${fileDirname}", # run from the file's folder
 ```
 
 
