@@ -1,5 +1,12 @@
 # NLTK Tutorial
 
+## Install
+
+```text
+>>> import nltk
+>>> nltk.download()
+```
+
 ## Tokenizer
 
 ### punkt
