@@ -15,6 +15,18 @@ This tokenizer divides a text into a list of sentences, by using an unsupervised
 
 The NLTK data package includes a pre-trained Punkt tokenizer for English.
 
+### Sentence tokenizer
+
+```python
+nltk.tokenize.sent_tokenize
+```
+
+### Word tokenizer
+
+```python
+nltk.tokenize.word_tokenize
+```
+
 ## CorpusReader
 
 Available corpus readers see [link](https://www.nltk.org/howto/corpus.html).
