@@ -3,7 +3,7 @@
 ## BibTeX
 
 ```text
-\bibliographystyle{IEEEtranN}
+\bibliographystyle{IEEEtran}
 \bibliography{refs}
 ```
 
