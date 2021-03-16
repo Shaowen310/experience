@@ -16,5 +16,12 @@
  "cwd": "${fileDirname}", # run from the file's folder
 ```
 
+### Command line argument
 
+```text
+"args": [
+   "--test", "buildOutput/JavaScript1.js",
+   "--env", "devtest-chrome-win8"
+]
+```
 
