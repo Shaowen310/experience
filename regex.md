@@ -1,6 +1,8 @@
 # Regex
 
-## Quantifier
+## Basics
+
+### Quantifier
 
 | Regular Expression | Description |
 | :--- | :--- |
@@ -11,7 +13,7 @@
 | {X,Y} | Occurs between X and Y times |
 | \*? | ? after a quantifier makes it a reluctant quantifier. It tries to find the smallest match. This makes the regular expression stop at the first match. |
 
-## Meta characters
+### Meta characters
 
 | Regular Expression | Description |
 | :--- | :--- |
@@ -23,7 +25,7 @@
 | \W | A non-word character  |
 | \b | Matches a word boundary where a word character is \[a-zA-Z0-9\_\] |
 
-## Look around
+### Look around
 
 | Lookaround | Name | What it Does |
 | :--- | :--- | :--- |
@@ -31,6 +33,22 @@
 | \(?&lt;=foo\) | Lookbehind | Asserts that what immediately PRECEDES the current position in the string is foo |
 | \(?!foo\) | Negative Lookahead | Asserts that what immediately FOLLOWS the current position in the string is NOT foo |
 | \(?&lt;!foo\) | Negative Lookbehind | Asserts that what immediately PRECEDES the current position in the string is NOT foo |
+
+## Python
+
+```python
+import re
+```
+
+### Substitution
+
+```python
+s = re.sub(r"([.!?])", r" \1", s)
+```
+
+The first `\1` means the first group - i.e. the first bracketed expression `([.!?])`
+
+From the [docs](https://docs.python.org/3/library/re.html) `\number`
 
 ## References
 
