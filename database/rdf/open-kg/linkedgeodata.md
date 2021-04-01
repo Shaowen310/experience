@@ -49,6 +49,8 @@ PREFIX bif: <http://www.openlinksw.com/schemas/bif#>
 
 ### Triplet Examples
 
+#### Spatial/Geographic
+
 The type of a POI
 
 e.g. `<lgdr:node3315834991 rdf:type lgdo:Zoo>`
@@ -95,11 +97,11 @@ SELECT * {
 }
 ```
 
-Link to other KGs
+#### Link to other KGs
 
 `owl:sameAs` relationship
 
-e.g. `<lgdr:node25074246 owl:sameAs http://dbpedia.org/resource/Grey_High_School>`
+e.g. `<lgdr:node25074246 owl:sameAs dbpedia:Grey_High_School>`
 
 ### OSM Queries
 

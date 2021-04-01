@@ -20,7 +20,7 @@
             "hidden": false,
             "name": "Ubuntu-18.04",
             "source": "Windows.Terminal.Wsl",
-            "colorScheme": "Dracula",
+            "colorScheme": "One Half Dark",
             "fontFace": "Roboto Mono Powerline",
             "fontSize": 11
         }
