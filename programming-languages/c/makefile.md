@@ -44,4 +44,5 @@ automake or cmake
 ## References
 
 1. [Automatic-Variables](https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html)
+2. [Makefile tutorial](https://makefiletutorial.com/)
 
