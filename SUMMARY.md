@@ -127,6 +127,7 @@
 * [Software Removal](software-removal/README.md)
   * [Microsoft Edge](software-removal/microsoft-edge.md)
 * [Text Mining](text-mining/README.md)
+  * [HuggingFace Tutorial](text-mining/huggingface-tutorial.md)
   * [NLTK Tutorial](text-mining/nltk-tutorial.md)
 * [Utils](utils/README.md)
   * [Curl](utils/curl.md)
