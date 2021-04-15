@@ -40,8 +40,9 @@ $param1=$args[0]
 Concatenate all variables to a string
 
 ```text
+$s = ""
 for ( $i = 0; $i -lt $args.count; $i++ ) {
-    write-host "Argument  $i is $($args[$i])"
+    $s = -join($s, " ", $args[$i])
 } 
 ```
 
