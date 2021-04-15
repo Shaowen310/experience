@@ -10,3 +10,10 @@ Invoke-Expression
       [<CommonParameters>]
 ```
 
+#### Example
+
+```text
+$Command = 'Get-Process | where {$_.cpu -gt 1000}'
+Invoke-Expression $Command
+```
+
