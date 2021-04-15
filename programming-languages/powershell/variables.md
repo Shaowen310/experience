@@ -37,3 +37,13 @@ cmd-arg-example1.ps1
 $param1=$args[0]
 ```
 
+Concatenate all variables to a string
+
+```text
+for ( $i = 0; $i -lt $args.count; $i++ ) {
+    write-host "Argument  $i is $($args[$i])"
+} 
+```
+
+
+
