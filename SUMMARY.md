@@ -137,6 +137,7 @@
   * [Task Schedulers](utils/task-scheduler.md)
 * [Web](web/README.md)
   * [Build a simple website](web/build-simple-website.md)
+  * [React](web/react.md)
   * [Central Authentication Service](web/central-auth-service.md)
   * [REST API Design](web/rest-api-design/README.md)
     * [Test REST api](web/rest-api-design/rest-api-test.md)
