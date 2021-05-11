@@ -67,6 +67,7 @@
   * [matplotlib](ml/matploblib.md)
   * [Numpy](ml/numpy.md)
   * [Pandas](ml/pandas.md)
+  * [HuggingFace](ml/huggingface.md)
   * [PyTorch](ml/pytorch/README.md)
     * [PyTorch Installation](ml/pytorch/pytorch-installation.md)
     * [PyTorch Template](ml/pytorch/pytorch-template.md)
