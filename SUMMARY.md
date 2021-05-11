@@ -55,6 +55,7 @@
   * [Microservice](microservice/microservice.md)
 * [ML](ml/README.md)
   * [Conda](ml/conda.md)
+  * [CUDA](ml/cuda.md)
   * [Deep learning network architectures](ml/deep-learning-network-architectures/README.md)
     * [Autoencoder](ml/deep-learning-network-architectures/autoencoder.md)
     * [Convolutional Neural Networks \(CNN\)](ml/deep-learning-network-architectures/cnn/README.md)
