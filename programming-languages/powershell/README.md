@@ -17,3 +17,10 @@ $Command = 'Get-Process | where {$_.cpu -gt 1000}'
 Invoke-Expression $Command
 ```
 
+## Persistent Session
+
+```text
+$s = new-PSSession computername
+Invoke-Command -session $s { ..script.. }
+```
+
