@@ -2,15 +2,23 @@
 
 ## Visible Devices
 
-Linux
+### Linux
 
 ```text
 export CUDA_VISIBLE_DEVICES=
 ```
 
-Windows
+### Windows
+
+Cmd
 
 ```text
 set CUDA_VISIBLE_DEVICES=
+```
+
+PowerShell
+
+```text
+$env:CUDA_VISIBLE_DEVICES=1
 ```
 
