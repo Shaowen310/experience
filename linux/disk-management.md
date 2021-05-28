@@ -30,6 +30,12 @@ sudo lvcreate -L +50G --name datauser ubuntu-vg
 sudo mkfs -t ext4 /dev/ubuntu-vg/datauser
 ```
 
+### Remove
+
+```text
+lvremove /dev/testvg/testlv
+```
+
 ### Add a Filesystem Label
 
 ```text
