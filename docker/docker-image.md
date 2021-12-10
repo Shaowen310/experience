@@ -1,7 +1,17 @@
-# Docker list
+# Docker image
+
+## List
 
 ```
 docker image ls
+```
+
+## Remove
+
+### Remove unused
+
+```
+docker image prune
 ```
 
 ## References

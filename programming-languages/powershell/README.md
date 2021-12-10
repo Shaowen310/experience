@@ -4,7 +4,7 @@
 
 ### Invoke-Expression
 
-```text
+```
 Invoke-Expression
       [-Command] <String>
       [<CommonParameters>]
@@ -12,8 +12,14 @@ Invoke-Expression
 
 #### Example
 
-```text
+```
 $Command = 'Get-Process | where {$_.cpu -gt 1000}'
 Invoke-Expression $Command
 ```
 
+## Persistent Session
+
+```
+$s = new-PSSession computername
+Invoke-Command -session $s { ..script.. }
+```

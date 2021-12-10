@@ -22,7 +22,7 @@
 * [Docker](docker/README.md)
   * [Connecting to a Remote Docker Daemon](docker/remote-docker-daemon.md)
   * [Docker installation](docker/docker-installation.md)
-  * [Docker list](docker/docker-list.md)
+  * [Docker image](docker/docker-image.md)
   * [Docker run](docker/docker-run.md)
   * [Docker exec](docker/docker-exec.md)
   * [Docker volume](docker/docker-volume.md)
