@@ -112,6 +112,7 @@
     * [Variables](programming-languages/powershell/variables.md)
   * [Python](programming-languages/python/README.md)
     * [Python Logger](programming-languages/python/python-logger.md)
+    * [Python Argument](programming-languages/python/python-argument.md)
     * [Python Tricks](programming-languages/python/python-tricks.md)
     * [Python Reflection](programming-languages/python/python-reflection.md)
     * [Python Special Methods](programming-languages/python/python-special-methods.md)
