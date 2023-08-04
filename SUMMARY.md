@@ -128,8 +128,6 @@
 * [SCM](scm/README.md)
   * [GitLab](scm/gitlab.md)
   * [Git](scm/git.md)
-* [Software Removal](software-removal/README.md)
-  * [Microsoft Edge](software-removal/microsoft-edge.md)
 * [Text Mining](text-mining/README.md)
   * [HuggingFace Tutorial](text-mining/huggingface-tutorial.md)
   * [NLTK Tutorial](text-mining/nltk-tutorial.md)
@@ -141,7 +139,6 @@
   * [Task Schedulers](utils/task-scheduler.md)
 * [Web](web/README.md)
   * [Build a simple website](web/build-simple-website.md)
-  * [React](web/react.md)
   * [Central Authentication Service](web/central-auth-service.md)
   * [REST API Design](web/rest-api-design/README.md)
     * [Test REST api](web/rest-api-design/rest-api-test.md)
@@ -149,6 +146,26 @@
   * [Spring Framework](web/spring-framework/README.md)
     * [Spring properties file](web/spring-framework/spring-properties.md)
     * [Spring data JPA](web/spring-framework/spring-data-jpa.md)
-* [Windows](windows/README.md)
-  * [Windows Terminal](windows/windows-terminal.md)
-  * [WSL2](windows/wsl2.md)
+
+## Frontend
+
+* [CORS](frontend/cors.md)
+* [Axios](frontend/axios/README.md)
+  * [Handle Error Response](frontend/axios/handle-error-response.md)
+  * [Request](frontend/axios/request.md)
+* [Vue](frontend/vue/README.md)
+  * [Vue Config](frontend/vue/vue-config.md)
+  * [Vue Page Title](frontend/vue/vue-page-title.md)
+  * [Vue/CLI](frontend/vue/vue-cli.md)
+  * [Vue Axios](frontend/vue/vue-axios.md)
+  * [Vue Redirect Request (Proxy)](frontend/vue/vue-redirect-request-proxy.md)
+  * [Vue Element Plus Upload](frontend/vue/vue-element-plus-upload.md)
+  * [Vue Props and Watchers](frontend/vue/vue-props-and-watchers.md)
+  * [Vue Lifecycle Hooks](frontend/vue/vue-lifecycle-hooks.md)
+* [React](frontend/react.md)
+
+## Environment setup
+
+* [Windows](environment-setup/windows/README.md)
+  * [Windows Terminal](environment-setup/windows/windows-terminal.md)
+  * [WSL2](environment-setup/windows/wsl2.md)

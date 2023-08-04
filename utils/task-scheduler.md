@@ -52,10 +52,10 @@ Special words
 
 * **@reboot** Run once, at startup
 * **@yearly/@annually** Run once per year "0 0 1 1 \*"
-* **@monthly** Run once per month "0 0 1 __ "
-* **@weekly** Run once per week "0 0 __ 0"
-* **@daily/@midnight** Run once per day "0 0 __ \*"
-* **@hourly** Run once per hour "0 __ __ "
+* **@monthly** Run once per month "0 0 1  "
+* **@weekly** Run once per week "0 0   0"
+* **@daily/@midnight** Run once per day "0 0   \*"
+* **@hourly** Run once per hour "0    "
 
 ## Windows
 

@@ -1,4 +1,4 @@
-# SSH \(OpenSSH\)
+# SSH (OpenSSH)
 
 ## Start SSH Server
 
@@ -54,7 +54,7 @@ Linux/Unix URL: `/etc/ssh/sshd_config`
 
 ### Create key
 
-```text
+```
 ssh-keygen -t ed25519
 ```
 
@@ -68,7 +68,7 @@ ssh-copy-id -i ~/.ssh/id_ed25519.pub user@server
 
 ## SOCKS Proxy
 
-```text
+```
 ssh -D 1080 -q -C -N user@host
 ```
 
@@ -79,11 +79,10 @@ ssh -D 1080 -q -C -N user@host
 
 Firefox setting
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (1).png>)
 
-![](../.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image.png)
 
 ## References
 
 1. [socks proxy linux ssh bypass content filters](https://ma.ttias.be/socks-proxy-linux-ssh-bypass-content-filters/)
-
