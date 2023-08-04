@@ -161,11 +161,12 @@
   * [Vue Redirect Request (Proxy)](frontend/vue/vue-redirect-request-proxy.md)
   * [Vue Element Plus Upload](frontend/vue/vue-element-plus-upload.md)
   * [Vue Props and Watchers](frontend/vue/vue-props-and-watchers.md)
+  * [Vue route](frontend/vue/vue-route.md)
   * [Vue Lifecycle Hooks](frontend/vue/vue-lifecycle-hooks.md)
-* [React](frontend/react.md)
+* [React](web/react.md)
 
 ## Environment setup
 
-* [Windows](environment-setup/windows/README.md)
-  * [Windows Terminal](environment-setup/windows/windows-terminal.md)
-  * [WSL2](environment-setup/windows/wsl2.md)
+* [Windows](windows/README.md)
+  * [Windows Terminal](windows/windows-terminal.md)
+  * [WSL2](windows/wsl2.md)
