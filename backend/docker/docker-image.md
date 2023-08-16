@@ -2,7 +2,7 @@
 
 ## List
 
-```
+```bash
 docker image ls
 ```
 
@@ -10,7 +10,7 @@ docker image ls
 
 ### Remove unused
 
-```
+```bash
 docker image prune
 ```
 

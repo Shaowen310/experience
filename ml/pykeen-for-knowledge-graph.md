@@ -1,2 +1,0 @@
-# pykeen for Knowledge Graph
-
