@@ -112,6 +112,7 @@
 
 ## Frontend
 
+* [Download](frontend/download.md)
 * [CORS](frontend/cors.md)
 * [Axios](frontend/axios/README.md)
   * [Handle Error Response](frontend/axios/handle-error-response.md)
