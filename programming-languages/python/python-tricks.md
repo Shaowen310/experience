@@ -1,9 +1,8 @@
 # Python Tricks
 
-## Tuple Assignments
+## Swap
 
 ```python
 # Swap two variables
 a, b = b, a
 ```
-
