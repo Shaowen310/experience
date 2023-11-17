@@ -4,6 +4,7 @@
 * [Compiler Optimization](complier-optimization/README.md)
   * [Scatter / Gather](complier-optimization/scatter-gather.md)
 * [Database](database/README.md)
+  * [SQL vs NoSQL](database/sql-vs-nosql.md)
   * [RDB](database/rdb/README.md)
     * [Apache HBase](database/rdb/hbase.md)
     * [Postgres](database/rdb/postgres.md)
