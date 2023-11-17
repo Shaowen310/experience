@@ -118,7 +118,7 @@ set(iterable)
 dict(iterable)
 ```
 
-### Reduce
+### functools.reduce
 
 `Reduce` applies a rolling computation to sequential pairs of values in a list. One example is to compute the product of a list of integers.
 
@@ -134,6 +134,5 @@ product = reduce((lambda x, y: x * y), [1, 2, 3, 4])
 ## References
 
 1. [Stack Overflow: What does the “yield” keyword do?](https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do)
-2. [Python Tips: Map, Filter and Reduce](https://book.pythontips.com/en/latest/map_filter.html)
+2. [Python Tips: Map, Filter and Reduce](https://book.pythontips.com/en/latest/map\_filter.html)
 3. [Python Documentation: Built-in Functions](https://docs.python.org/3/library/functions.html)
-
