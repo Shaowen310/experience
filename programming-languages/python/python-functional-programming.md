@@ -118,6 +118,12 @@ set(iterable)
 dict(iterable)
 ```
 
+### all
+
+```python
+all(iterable)
+```
+
 ### functools.reduce
 
 `Reduce` applies a rolling computation to sequential pairs of values in a list. One example is to compute the product of a list of integers.
