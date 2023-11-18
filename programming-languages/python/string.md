@@ -27,6 +27,14 @@ string.whitespace
 "str".isalnum()
 ```
 
+### Trim
+
+```python
+"str".strip()
+"str".lstrip()
+"str".rstrip()
+```
+
 ### static str.maketrans(x\[ ,y\[, z]])
 
 It returns a translation table for `str.translate()`
