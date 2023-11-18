@@ -87,6 +87,7 @@
     * [Python String](programming-languages/python/string.md)
     * [Python List Set Dict](programming-languages/python/python-set.md)
     * [Python Operators](programming-languages/python/python-operators.md)
+    * [Python collections](programming-languages/python/python-collections.md)
   * [Ruby](programming-languages/ruby/README.md)
     * [Libraries (Gems)](programming-languages/ruby/libraries-gems.md)
 * [Regex](regex.md)
