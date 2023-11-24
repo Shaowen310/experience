@@ -170,6 +170,7 @@
   * [Numpy](environment-setup/ml/numpy.md)
   * [Pandas](environment-setup/ml/pandas.md)
   * [HuggingFace](environment-setup/ml/huggingface.md)
+  * [TensorFlow](environment-setup/ml/tensorflow.md)
   * [PyTorch](environment-setup/ml/pytorch/README.md)
     * [PyTorch Installation](environment-setup/ml/pytorch/pytorch-installation.md)
     * [PyTorch Template](environment-setup/ml/pytorch/pytorch-template.md)
