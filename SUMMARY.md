@@ -104,6 +104,21 @@
   * [Pipe to/from the clipboard](utils/pipe-to-from-clipboard.md)
   * [SSH (OpenSSH)](utils/ssh.md)
   * [Task Schedulers](utils/task-scheduler.md)
+* [Docker](docker/README.md)
+  * [Nvidia Dockers](docker/nvidia-dockers.md)
+  * [Connecting to a Remote Docker Daemon](docker/remote-docker-daemon.md)
+  * [Docker installation](docker/docker-installation.md)
+  * [Docker build](docker/docker-build.md)
+  * [Docker image](docker/docker-image.md)
+  * [Docker run](docker/docker-run.md)
+  * [Docker exec](docker/docker-exec.md)
+  * [Docker volume](docker/docker-volume.md)
+  * [Docker inspect](docker/docker-inspect.md)
+  * [Docker cp](docker/docker-cp.md)
+  * [Docker logs](docker/docker-logs.md)
+  * [Docker system](docker/docker-system.md)
+  * [Docker WSL2 Integration](docker/docker-wsl2-integration.md)
+  * [docker-compose](docker/docker-compose.md)
 * [Web](web/README.md)
   * [Build a simple website](web/build-simple-website.md)
   * [Central Authentication Service](web/central-auth-service.md)
@@ -134,21 +149,6 @@
 * [React](web/react.md)
 
 ## Backend
-
-* [Docker](backend/docker/README.md)
-  * [Connecting to a Remote Docker Daemon](backend/docker/remote-docker-daemon.md)
-  * [Docker installation](backend/docker/docker-installation.md)
-  * [Docker build](backend/docker/docker-build.md)
-  * [Docker image](backend/docker/docker-image.md)
-  * [Docker run](backend/docker/docker-run.md)
-  * [Docker exec](backend/docker/docker-exec.md)
-  * [Docker volume](backend/docker/docker-volume.md)
-  * [Docker inspect](backend/docker/docker-inspect.md)
-  * [Docker cp](backend/docker/docker-cp.md)
-  * [Docker logs](backend/docker/docker-logs.md)
-  * [Docker system](backend/docker/docker-system.md)
-  * [Docker WSL2 Integration](backend/docker/docker-wsl2-integration.md)
-  * [docker-compose](backend/docker/docker-compose.md)
 
 ## Environment setup
 
