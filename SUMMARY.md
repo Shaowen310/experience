@@ -23,6 +23,7 @@
 * [IDE](ide/README.md)
   * [Visual Studio Code](ide/visual-studio-code.md)
 * [Linux](linux/README.md)
+  * [Update](linux/update.md)
   * [PATH](linux/path.md)
   * [Change default python version](linux/change-default-python-version.md)
   * [User Management](linux/user-management.md)
