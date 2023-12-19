@@ -83,5 +83,4 @@ total_loss = running_loss/num_batches
 
 ## References
 
-1. [https://github.com/xbresson/CE7454\_2020](https://github.com/xbresson/CE7454_2020)
-
+1. [https://github.com/xbresson/CE7454\_2020](https://github.com/xbresson/CE7454\_2020)

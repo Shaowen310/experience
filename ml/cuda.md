@@ -1,4 +1,4 @@
-# CUDA
+# CUDA env variables
 
 ## Visible Devices
 

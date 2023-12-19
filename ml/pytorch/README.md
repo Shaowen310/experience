@@ -6,7 +6,7 @@
 
 #### torch.Tensor vs torch.tensor
 
-`torch.Tensor` overloads `torch.tensor` and `torch.empty` 
+`torch.Tensor` overloads `torch.tensor` and `torch.empty`&#x20;
 
 `torch.tensor(data)` initialise a tensor with data
 
@@ -28,9 +28,9 @@ torch.view(dim0, dim1, ...)
 
 `torch.randint(low=0, high, size)`
 
-_high_ \(int\) - exclusive
+_high_ (int) - exclusive
 
-_size_ \(int...\)
+_size_ (int...)
 
 #### randperm
 
@@ -47,7 +47,7 @@ Tensor.float()
 
 #### Tensor and numpy array
 
-Use [`torch.as_tensor()`](https://pytorch.org/docs/stable/generated/torch.as_tensor.html#torch.as_tensor) to convert a numpy array to a tensor without copying data.
+Use [`torch.as_tensor()`](https://pytorch.org/docs/stable/generated/torch.as\_tensor.html#torch.as\_tensor) to convert a numpy array to a tensor without copying data.
 
 Use `Tensor.numpy()` to convert a tensor to a numpy array without copying data.
 
@@ -59,9 +59,9 @@ Use `Tensor.item()` to convert a one-element tensor to a python number.
 
 ### require\_grad flag
 
-[`torch.tensor()`](https://pytorch.org/docs/stable/generated/torch.tensor.html#torch.tensor) always copies `data`. 
+[`torch.tensor()`](https://pytorch.org/docs/stable/generated/torch.tensor.html#torch.tensor) always copies `data`.&#x20;
 
-If you have a Tensor `data` and just want to change its `requires_grad` flag, use [`requires_grad_()`](https://pytorch.org/docs/stable/tensors.html#torch.Tensor.requires_grad_) or [`detach()`](https://pytorch.org/docs/stable/autograd.html#torch.Tensor.detach) to avoid a copy. 
+If you have a Tensor `data` and just want to change its `requires_grad` flag, use [`requires_grad_()`](https://pytorch.org/docs/stable/tensors.html#torch.Tensor.requires\_grad\_) or [`detach()`](https://pytorch.org/docs/stable/autograd.html#torch.Tensor.detach) to avoid a copy.&#x20;
 
 ## NN
 
@@ -86,4 +86,3 @@ torch.backends.cudnn.deterministic = True
 
 1. [PyTorch Doc tensor](https://pytorch.org/docs/stable/tensors.html)
 2. [Stack Overflow: What is the difference between torch.tensor and torch.Tensor?](https://stackoverflow.com/questions/51911749/what-is-the-difference-between-torch-tensor-and-torch-tensor)
-

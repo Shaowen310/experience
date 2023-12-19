@@ -9,4 +9,3 @@ for i in range(0, n_samples, bs):
     minibatch_data = train_data[indices]
     minibatch_label = train_label[indices]
 ```
-

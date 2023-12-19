@@ -61,9 +61,9 @@ $$
 
 `torch.nn.NLLLoss(weight: Optional[torch.Tensor] = None, reduction: str = 'mean')`
 
-The _input_ given through a forward call is expected to contain log-probabilities of each class. input has to be a Tensor of size either \(minibatch, C\) or \(minibatch, C, $d\_1$, $d\_2$, ..., $d\_K$\) with K ≥ 1 for the K-dimensional case.
+The _input_ given through a forward call is expected to contain log-probabilities of each class. input has to be a Tensor of size either (minibatch, C) or (minibatch, C, $d\_1$, $d\_2$, ..., $d\_K$) with K ≥ 1 for the K-dimensional case.
 
-The _target_ that this loss expects should be a class index in the range \[0,C−1\] where C = number of classes. Type torch.long
+The _target_ that this loss expects should be a class index in the range \[0,C−1] where C = number of classes. Type torch.long
 
 Loss for an instance
 
@@ -86,4 +86,3 @@ The following are equivalent
 ## Notes
 
 Possible to use CrossEntropyLoss for binary classification, but the _target_ should be ground-truth labels.
-

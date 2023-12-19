@@ -8,5 +8,3 @@ Example
 
 `m = nn.Conv2d(16, 33, (3, 5), stride=(2, 1), padding=(4, 2), dilation=(3, 1))`
 
-
-

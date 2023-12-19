@@ -9,15 +9,15 @@ pd.read_json()
 
 ### dtype
 
-| Pandas dtype | Python type | NumPy type | Description |
-| :--- | :--- | :--- | :--- |
-| object | str | str\_, string\_, unicode\_ |  |
-| int64 | int | int\_, int8, int16, int32, int64, uint8, uint16,uint32,uint64 |  |
-| float64 | float | float\_, float16, float32, float64 |  |
-| bool | bool | bool\_ |  |
-| datetime64 | -- | datetime64\[ns\] |  |
-| timedelta\[ns\] | -- | -- | Difference between two datetimes |
-| category | -- | -- | Finite list of text values |
+| Pandas dtype   | Python type | NumPy type                                                    | Description                      |
+| -------------- | ----------- | ------------------------------------------------------------- | -------------------------------- |
+| object         | str         | str\_, string\_, unicode\_                                    |                                  |
+| int64          | int         | int\_, int8, int16, int32, int64, uint8, uint16,uint32,uint64 |                                  |
+| float64        | float       | float\_, float16, float32, float64                            |                                  |
+| bool           | bool        | bool\_                                                        |                                  |
+| datetime64     | --          | datetime64\[ns]                                               |                                  |
+| timedelta\[ns] | --          | --                                                            | Difference between two datetimes |
+| category       | --          | --                                                            | Finite list of text values       |
 
 ## Schema
 
@@ -104,7 +104,7 @@ Note that `query` is more efficient because it does not need to generate boolean
 
 `df.drop_duplicates()`
 
-### count \(length\)
+### count (length)
 
 `df.shape[0]` or `len(df)`
 
@@ -167,4 +167,3 @@ series.apply(len)
 ## References
 
 1. [【Python 实战】Pandas：让你像写 SQL 一样做数据分析（一）](https://www.cnblogs.com/en-heng/p/5630849.html)
-
