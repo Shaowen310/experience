@@ -55,12 +55,12 @@ Linux/Unix URL: `/etc/ssh/sshd_config`
 ### Create key
 
 ```
-ssh-keygen -t ed25519
+ssh-keygen -t ed25519 -f id_ed25519
 ```
 
 ### Import key
 
-Need to allow `PasswordAuthentication` temporarily
+Need to allow `PasswordAuthentication` temporarily. Works on Linux.
 
 ```bash
 ssh-copy-id -i ~/.ssh/id_ed25519.pub user@server
