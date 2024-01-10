@@ -179,4 +179,5 @@
     * [PyTorch Autograd](ml/pytorch/pytorch-evaluation.md)
     * [PyTorch Convolution](ml/pytorch/pytorch-convolution.md)
     * [PyTorch Embedding](ml/pytorch/pytorch-embedding.md)
+    * [PyTorch einsum](environment-setup/ml/pytorch/pytorch-einsum.md)
     * [PyTorch LSTM](ml/pytorch/lstm.md)
