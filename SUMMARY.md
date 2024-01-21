@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Engineering](README.md)
+* [Algorithm](algorithm.md)
 * [Compiler Optimization](complier-optimization/README.md)
   * [Scatter / Gather](complier-optimization/scatter-gather.md)
 * [Distributed Systems](distributed-systems/README.md)
