@@ -3,21 +3,6 @@
 * [Engineering](README.md)
 * [Compiler Optimization](complier-optimization/README.md)
   * [Scatter / Gather](complier-optimization/scatter-gather.md)
-* [Database](database/README.md)
-  * [SQL vs NoSQL](database/sql-vs-nosql.md)
-  * [RDB](database/rdb/README.md)
-    * [Apache HBase](database/rdb/hbase.md)
-    * [Postgres](database/rdb/postgres.md)
-    * [SQL](database/rdb/sql/README.md)
-      * [SQL Parser](database/rdb/sql/sql-parser.md)
-      * [SQL Variations](database/rdb/sql/sql-variations.md)
-  * [RDF](database/rdf/README.md)
-    * [Open Datasets](database/rdf/open-kg/README.md)
-      * [GeoNames](database/rdf/open-kg/geonames.md)
-      * [LinkedGeoData](database/rdf/open-kg/linkedgeodata.md)
-      * [YAGO](database/rdf/open-kg/yago.md)
-    * [SPARQL](database/rdf/sparql/README.md)
-      * [SPARQL Basics](database/rdf/sparql/sparql-basics.md)
 * [Distributed Systems](distributed-systems/README.md)
   * [Consistency](distributed-systems/consistency.md)
 * [IDE](ide/README.md)
@@ -40,9 +25,6 @@
   * [Commands](linux/commands.md)
   * [Linux Kernel Module (LKM)](linux/linux-kernel-module.md)
 * [Markdown](markdown.md)
-* [Microservices](microservice/README.md)
-  * [Kubernetes](microservice/kubernetes.md)
-  * [Microservice](microservice/microservice.md)
 * [Network](network/README.md)
   * [netplan: Network configuration tool for Ubuntu Server](network/netplan.md)
   * [Netperf](network/netperf.md)
@@ -148,7 +130,11 @@
   * [Vue Lifecycle Hooks](frontend/vue/vue-lifecycle-hooks.md)
 * [React](web/react.md)
 
-## Backend
+## Backend Architecture
+
+* [Microservices](backend-architecture/microservice/README.md)
+  * [Kubernetes](backend-architecture/microservice/kubernetes.md)
+  * [Microservice](backend-architecture/microservice/microservice.md)
 
 ## Environment setup
 
@@ -181,3 +167,20 @@
     * [PyTorch Embedding](ml/pytorch/pytorch-embedding.md)
     * [PyTorch einsum](environment-setup/ml/pytorch/pytorch-einsum.md)
     * [PyTorch LSTM](ml/pytorch/lstm.md)
+
+## Database
+
+* [SQL vs NoSQL](database/sql-vs-nosql.md)
+* [RDB](database/rdb/README.md)
+  * [Apache HBase](database/rdb/hbase.md)
+  * [Postgres](database/rdb/postgres.md)
+  * [SQL](database/rdb/sql/README.md)
+    * [SQL Parser](database/rdb/sql/sql-parser.md)
+    * [SQL Variations](database/rdb/sql/sql-variations.md)
+* [RDF](database/rdf/README.md)
+  * [Open Datasets](database/rdf/open-kg/README.md)
+    * [GeoNames](database/rdf/open-kg/geonames.md)
+    * [LinkedGeoData](database/rdf/open-kg/linkedgeodata.md)
+    * [YAGO](database/rdf/open-kg/yago.md)
+  * [SPARQL](database/rdf/sparql/README.md)
+    * [SPARQL Basics](database/rdf/sparql/sparql-basics.md)
