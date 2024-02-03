@@ -60,10 +60,16 @@ ssh-keygen -t ed25519 -f id_ed25519
 
 ### Import key
 
-Need to allow `PasswordAuthentication` temporarily. Works on Linux.
+Need to allow `PasswordAuthentication` temporarily. For Linux:
 
 ```bash
 ssh-copy-id -i ~/.ssh/id_ed25519.pub user@server
+```
+
+For Windows PowerShell
+
+```powershell
+type $env:USERPROFILE\\.ssh\\id_rsa.pub | ssh {IP-ADDRESS-OR-FQDN} \"cat >> .ssh/authorized_keys"
 ```
 
 ## SOCKS Proxy
