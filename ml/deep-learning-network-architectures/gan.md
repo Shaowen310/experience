@@ -1,6 +1,0 @@
-# GAN
-
-## Base
-
-## References
-

@@ -150,8 +150,6 @@
     * [Autoencoder](ml/deep-learning-network-architectures/autoencoder.md)
     * [Convolutional Neural Networks (CNN)](ml/deep-learning-network-architectures/cnn/README.md)
       * [VGG16](ml/deep-learning-network-architectures/cnn/vgg16.md)
-    * [GAN](ml/deep-learning-network-architectures/gan.md)
-    * [Transformer](ml/deep-learning-network-architectures/transformer.md)
   * [LightGBM](ml/lightgbm.md)
   * [matplotlib](ml/matploblib.md)
   * [Numpy](ml/numpy.md)
